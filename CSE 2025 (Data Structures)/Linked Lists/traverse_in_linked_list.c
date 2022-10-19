@@ -1,33 +1,37 @@
-#include "stdio.h";
-#include "stdlib.h";
+#include "stdio.h"
+#include "stdlib.h"
 
-struct n {
+struct node {
     int data;
-    struct n *next;
+    struct node *next;
 };
 
-typedef struct n node;
+typedef struct node node;
 
 
 int main() {
+    
+    int counter = 0;
 
     node *root;
     node *cursor;
 
     root = (node*) malloc(sizeof(node));
-    root -> data = 10;
-    
-    root -> next = (node*) malloc(sizeof(node));
+    root -> data = 1;
 
-    root->next -> data = 20;
-    root->next->next = NULL;
+    root -> next = (node*) malloc(sizeof(node));
+    root -> next -> data = 2;
+
+    root -> next -> next = (node*) malloc(sizeof(node));
+    root -> next -> next -> data = 3;
+    root -> next -> next -> next = NULL;
 
     cursor = root;
 
-    for(int i = 1 ; i <= 2 ; i++) {
-        printf("cursor->data : %d\n", cursor->data);
-        cursor = cursor->next;
+    while(cursor != NULL) {
+        counter++;
+        printf("The %d. element is %d\n", counter, cursor -> data);
+        cursor = cursor -> next;
     }
-    
 
 }
