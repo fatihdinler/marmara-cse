@@ -14,7 +14,7 @@ node *startingPointerForNumber2;
 
 int calculateNumberOfDigitsOfProduct(long long int num1, long long int num2, long long int base);
 int calculateTheNumberOfDigits(long long int number);
-void createLinkedList(int length, node *start);
+void createLinkedList(int length);
 
 int main() {
     
@@ -48,9 +48,9 @@ int calculateTheNumberOfDigits(long long int number) {
     return noOfDigits;
 }
 
-void createLinkedList(int length, node *start) {
+void createLinkedList(int length) {
     node *cursor = (node *) malloc(sizeof(node));
-    start = cursor;
+    startingPointerForProduct = cursor;
     
     for(int i = 1 ; i <= length ; i++) {
         cursor -> nextPointer = (node*)malloc(sizeof(node));
