@@ -8,19 +8,27 @@ struct node {
 };
 
 typedef struct node node;
-node *startingPointer;
+node *startingPointerForProduct;
+node *startingPointerForNumber1;
+node *startingPointerForNumber2;
 
 int calculateNumberOfDigitsOfProduct(long long int num1, long long int num2, long long int base);
-void createLinkedList(int length);
+int calculateTheNumberOfDigits(long long int number);
+void createLinkedList(int length, node *start);
 
 int main() {
     
     int number1 = 698;
     int number2 = 600;
+    
+    int lengthOfNumber1 = calculateTheNumberOfDigits(number1);
+    int lengthOfNumber2 = calculateTheNumberOfDigits(number2);
     int lengthOfProduct = calculateNumberOfDigitsOfProduct(number1, number2, 10);
 
+    printf("%d  %d", lengthOfNumber1, lengthOfNumber2);
     /** We created a linked list based on the # of digits of multiplication. */
     createLinkedList(lengthOfProduct);
+
 
 }
 
@@ -31,15 +39,23 @@ int calculateNumberOfDigitsOfProduct(long long int num1, long long int num2, lon
     return log2(number) / log2(base) + 1;
 }
 
-void createLinkedList(int length) {
+int calculateTheNumberOfDigits(long long int number) {
+    int noOfDigits = 0;
+    while(number != 0) {
+        number /= 10;
+        noOfDigits++;
+    }
+    return noOfDigits;
+}
+
+void createLinkedList(int length, node *start) {
     node *cursor = (node *) malloc(sizeof(node));
-    startingPointer = cursor;
+    start = cursor;
     
     for(int i = 1 ; i <= length ; i++) {
         cursor -> nextPointer = (node*)malloc(sizeof(node));
         cursor = cursor -> nextPointer;
         cursor -> nextPointer = NULL;
     }
-    printf("\n\n%d", startingPointer -> data);
 }
 
