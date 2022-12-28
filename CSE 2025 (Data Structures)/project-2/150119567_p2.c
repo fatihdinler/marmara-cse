@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 typedef struct AVLNode {
     int data;
     int height;
@@ -11,6 +11,8 @@ typedef struct AVLNode {
 char left_child_rotatin_status[] = "l";
 char right_child_rotatin_status[] = "r";
 int avlRotationNumber = 0;
+int avlComparisonNumber = 0;
+int avlTotalCost = 0;
 
 int getMaxOfNode(int a, int b);
 int getHeigthOfNode(AVLNode *node);
@@ -21,6 +23,7 @@ AVLNode *insert(int data, AVLNode *node);
 void printPreOrderAvlTree(AVLNode *node);
 
 int main() {
+
     AVLNode *root = NULL;
 
     root = insert(44, root);
@@ -28,30 +31,9 @@ int main() {
     root = insert(12, root);
     root = insert(10, root);
     root = insert(6, root);
-    root = insert(3, root);
-    root = insert(25, root);
-    root = insert(21, root);
-    root = insert(38, root);
-    root = insert(12, root);
-    root = insert(123, root);
-    root = insert(43, root);
-    root = insert(45, root);
-    root = insert(56, root);
-    root = insert(67, root);
-    root = insert(78, root);
-    root = insert(89, root);
-    root = insert(90, root);
-    root = insert(12, root);
-    root = insert(0, root);
-    root = insert(348975, root);
-    root = insert(1829734, root);
     
-
-    printf("Preorder traversal of the constructed AVL tree is: \n");
     printPreOrderAvlTree(root);
-    printf("\nAVL rotation number is : %dtu\n", avlRotationNumber);
 
-    return 0;
 }
 
 int getHeigthOfNode(AVLNode *node) {
@@ -65,6 +47,7 @@ int getHeigthOfNode(AVLNode *node) {
 }
 
 int getMaxOfNode(int a, int b) {
+    avlComparisonNumber++;
     int returnValue = (a > b) ? a : b;
     return returnValue;
 }
@@ -211,3 +194,12 @@ void printPreOrderAvlTree(AVLNode *node) {
         printPreOrderAvlTree(node->rightChild);
     }
 }
+
+
+    // root = insert(44, root);
+    // root = insert(3, root);
+    // root = insert(12, root);
+    // printf("Preorder traversal of the constructed AVL tree is: \n");
+    // printPreOrderAvlTree(root);
+    // avlTotalCost = avlRotationNumber + avlComparisonNumber;
+    // printf("\nAVL rotation number is : %dtu\n", avlTotalCost);
