@@ -1,6 +1,11 @@
+// Name : Fatih Erkam Dinler
+// ID : 150119567
+// Data Structures Project 2.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 typedef struct AVLNode {
     int data;
     int height;
