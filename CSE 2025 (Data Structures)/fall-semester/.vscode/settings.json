@@ -2,5 +2,6 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "string.h": "c"
-    }
+    },
+    "gitlens.outputLevel": "debug"
 }
