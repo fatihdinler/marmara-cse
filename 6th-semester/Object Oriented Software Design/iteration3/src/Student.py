@@ -15,8 +15,6 @@ class Student(Person):
         self.__semester = semester
         self.__studentList = []
 
-    def getStudentNumber(self):
-        return self.__studentNumber
 
     def setStudentNumber(self, studentNumber):
         self.__studentNumber = studentNumber
