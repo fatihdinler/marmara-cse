@@ -1,0 +1,13 @@
+Ali Kaya bireysel
+Asli Bulut kurumsal_kucuk
+Mehmet Candan kurumsal_orta
+Yasemin Adiguzel bireysel
+Veli Demir kurumsal_buyuk
+Suzan Celik kurumsal_sirketici
+Yeliz Kara bireysel_vip
+Tuna Yildiz kurumsal_kucuk
+Polat Caliskan kurumsal_sirketici
+Berkecan Yildirim kurumsal_orta
+Demet Avci kurumsal_orta
+Derya Polat bireysel
+Canan Karakaya kurumsal_kucuk

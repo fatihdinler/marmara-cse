@@ -1,0 +1,1141 @@
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+1
+#############################################################
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+2
+#############################################################
+--------------------------------------------------
+1 - Ali  Kaya - type : bireysel - total debt :  0
+--------------------------------------------------
+2 - Asli  Bulut - type : kurumsal_kucuk - total debt :  0
+--------------------------------------------------
+3 - Mehmet  Candan - type : kurumsal_orta - total debt :  0
+--------------------------------------------------
+4 - Yasemin  Adiguzel - type : bireysel - total debt :  0
+--------------------------------------------------
+5 - Veli  Demir - type : kurumsal_buyuk - total debt :  0
+--------------------------------------------------
+6 - Suzan  Celik - type : kurumsal_sirketici - total debt :  0
+--------------------------------------------------
+7 - Yeliz  Kara - type : bireysel_vip - total debt :  0
+--------------------------------------------------
+8 - Tuna  Yildiz - type : kurumsal_kucuk - total debt :  0
+--------------------------------------------------
+9 - Polat  Caliskan - type : kurumsal_sirketici - total debt :  0
+--------------------------------------------------
+10 - Berkecan  Yildirim - type : kurumsal_orta - total debt :  0
+--------------------------------------------------
+11 - Demet  Avci - type : kurumsal_orta - total debt :  0
+--------------------------------------------------
+12 - Derya  Polat - type : bireysel - total debt :  0
+--------------------------------------------------
+13 - Canan  Karakaya - type : kurumsal_kucuk - total debt :  0
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+3
+#############################################################
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+4
+#############################################################
+--------------------------------------------------
+1 - Ali  Kaya - type : bireysel - total debt :  0
+    1L1 : ihtiyac - 10256.75 - 29/11/2022 - 15
+    1L2 : saglik_sigortasi - 15361.00 - 25/02/2023 - 7
+--------------------------------------------------
+2 - Asli  Bulut - type : kurumsal_kucuk - total debt :  0
+    2L1 : ticari_arac - 845701.25 - 08/08/2020 - 12
+    2L2 : kobi_destek - 90587.93 - 28/12/2022 - 17
+--------------------------------------------------
+3 - Mehmet  Candan - type : kurumsal_orta - total debt :  0
+    3L1 : ticari_arac - 1678932.00 - 10/09/2022 - 16
+    3L2 : ticari_kasko - 6589.00 - 16/04/2023 - 3
+--------------------------------------------------
+4 - Yasemin  Adiguzel - type : bireysel - total debt :  0
+    4L1 : konut - 5998764.50 - 01/02/2021 - 27
+    4L2 : bireysel_emeklilik - 20896.13 - 21/07/2021 - 9
+--------------------------------------------------
+5 - Veli  Demir - type : kurumsal_buyuk - total debt :  0
+    5L1 : yatirim - 152745.98 - 10/12/2022 - 5
+    5L2 : ticari_kasko - 17921.00 - 12/12/2022 - 5
+    5L3 : calisan_saglik_sigortasi - 15410.00 - 15/12/2022 - 5
+    5L4 : ticari_trafik_sigortasi - 4158.03 - 02/04/2023 - 4
+    5L5 : isyeri_alimi - 6874581.00 - 03/04/2023 - 12
+--------------------------------------------------
+6 - Suzan  Celik - type : kurumsal_sirketici - total debt :  0
+    6L1 : elektronik - 15426.87 - 12/12/2020 - 9
+    6L2 : kasko - 4298.77 - 15/06/2021 - 3
+    6L3 : trafik_sigortasi - 7863.00 - 01/01/2022 - 3
+    6L4 : yatirim - 63512.31 - 15/10/2022 - 17
+--------------------------------------------------
+7 - Yeliz  Kara - type : bireysel_vip - total debt :  0
+    7L1 : saglik_sigortasi - 11498.00 - 16/11/2021 - 2
+    7L2 : yatirim - 45932.14 - 18/07/2022 - 6
+--------------------------------------------------
+8 - Tuna  Yildiz - type : kurumsal_kucuk - total debt :  0
+    8L1 : kobi_destek - 45268.00 - 07/09/2020 - 10
+    8L2 : baslangic_destek - 369784.00 - 23/11/2022 - 8
+--------------------------------------------------
+9 - Polat  Caliskan - type : kurumsal_sirketici - total debt :  0
+    9L1 : elektronik - 52456.00 - 19/09/2021 - 9
+    9L2 : saglik_sigortasi - 4985.45 - 08/12/2021 - 4
+--------------------------------------------------
+10 - Berkecan  Yildirim - type : kurumsal_orta - total debt :  0
+    10L1 : ticari_kasko - 13942.10 - 09/03/2021 - 5
+    10L2 : ticari_arac - 754129.31 - 12/12/2022 - 20
+--------------------------------------------------
+11 - Demet  Avci - type : kurumsal_orta - total debt :  0
+    11L1 : ticari_trafik_sigortasi - 8354.67 - 06/04/2022 - 3
+    11L2 : ticari_kasko - 20974.31 - 20/12/2022 - 7
+--------------------------------------------------
+12 - Derya  Polat - type : bireysel - total debt :  0
+    12L1 : kasko - 3617.75 - 01/01/2018 - 4
+    12L2 : elektronik - 15203.42 - 15/08/2018 - 6
+    12L3 : bireysel_emeklilik - 30485.00 - 19/09/2019 - 7
+    12L4 : trafik_sigortasi - 1743.55 - 17/12/2022 - 2
+--------------------------------------------------
+13 - Canan  Karakaya - type : kurumsal_kucuk - total debt :  0
+    13L1 : kobi_destek - 98786.00 - 10/12/2019 - 17
+    13L2 : ticari_trafik_sigortasi - 9173.22 - 17/03/2023 - 4
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+5
+#############################################################
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+6
+#############################################################
+--------------------------------------------------
+1 - Ali  Kaya - type : bireysel - total debt :  0
+    1L1 : ihtiyac - 10256.75 - 29/11/2022 - 15
+        1L1I1 -> 29/11/2022 - 683.78  - To be Paid
+        1L1I2 -> 29/12/2022 - 683.78  - To be Paid
+        1L1I3 -> 29/1/2023 - 683.78  - To be Paid
+        1L1I4 -> 29/2/2023 - 683.78  - To be Paid
+        1L1I5 -> 29/3/2023 - 683.78  - To be Paid
+        1L1I6 -> 29/4/2023 - 683.78  - To be Paid
+        1L1I7 -> 29/5/2023 - 683.78  - To be Paid
+        1L1I8 -> 29/6/2023 - 683.78  - To be Paid
+        1L1I9 -> 29/7/2023 - 683.78  - To be Paid
+        1L1I10 -> 29/8/2023 - 683.78  - To be Paid
+        1L1I11 -> 29/9/2023 - 683.78  - To be Paid
+        1L1I12 -> 29/10/2023 - 683.78  - To be Paid
+        1L1I13 -> 29/11/2023 - 683.78  - To be Paid
+        1L1I14 -> 29/12/2023 - 683.78  - To be Paid
+        1L1I15 -> 29/1/2024 - 683.78  - To be Paid
+    1L2 : saglik_sigortasi - 15361.00 - 25/02/2023 - 7
+        1L2I1 -> 25/02/2023 - 2194.43  - To be Paid
+        1L2I2 -> 25/3/2023 - 2194.43  - To be Paid
+        1L2I3 -> 25/4/2023 - 2194.43  - To be Paid
+        1L2I4 -> 25/5/2023 - 2194.43  - To be Paid
+        1L2I5 -> 25/6/2023 - 2194.43  - To be Paid
+        1L2I6 -> 25/7/2023 - 2194.43  - To be Paid
+        1L2I7 -> 25/8/2023 - 2194.43  - To be Paid
+--------------------------------------------------
+2 - Asli  Bulut - type : kurumsal_kucuk - total debt :  0
+    2L1 : ticari_arac - 845701.25 - 08/08/2020 - 12
+        2L1I1 -> 08/08/2020 - 70475.10  - To be Paid
+        2L1I2 -> 8/9/2020 - 70475.10  - To be Paid
+        2L1I3 -> 8/10/2020 - 70475.10  - To be Paid
+        2L1I4 -> 8/11/2020 - 70475.10  - To be Paid
+        2L1I5 -> 8/12/2020 - 70475.10  - To be Paid
+        2L1I6 -> 8/1/2021 - 70475.10  - To be Paid
+        2L1I7 -> 8/2/2021 - 70475.10  - To be Paid
+        2L1I8 -> 8/3/2021 - 70475.10  - To be Paid
+        2L1I9 -> 8/4/2021 - 70475.10  - To be Paid
+        2L1I10 -> 8/5/2021 - 70475.10  - To be Paid
+        2L1I11 -> 8/6/2021 - 70475.10  - To be Paid
+        2L1I12 -> 8/7/2021 - 70475.10  - To be Paid
+    2L2 : kobi_destek - 90587.93 - 28/12/2022 - 17
+        2L2I1 -> 28/12/2022 - 5328.70  - To be Paid
+        2L2I2 -> 28/1/2023 - 5328.70  - To be Paid
+        2L2I3 -> 28/2/2023 - 5328.70  - To be Paid
+        2L2I4 -> 28/3/2023 - 5328.70  - To be Paid
+        2L2I5 -> 28/4/2023 - 5328.70  - To be Paid
+        2L2I6 -> 28/5/2023 - 5328.70  - To be Paid
+        2L2I7 -> 28/6/2023 - 5328.70  - To be Paid
+        2L2I8 -> 28/7/2023 - 5328.70  - To be Paid
+        2L2I9 -> 28/8/2023 - 5328.70  - To be Paid
+        2L2I10 -> 28/9/2023 - 5328.70  - To be Paid
+        2L2I11 -> 28/10/2023 - 5328.70  - To be Paid
+        2L2I12 -> 28/11/2023 - 5328.70  - To be Paid
+        2L2I13 -> 28/12/2023 - 5328.70  - To be Paid
+        2L2I14 -> 28/1/2024 - 5328.70  - To be Paid
+        2L2I15 -> 28/2/2024 - 5328.70  - To be Paid
+        2L2I16 -> 28/3/2024 - 5328.70  - To be Paid
+        2L2I17 -> 28/4/2024 - 5328.70  - To be Paid
+--------------------------------------------------
+3 - Mehmet  Candan - type : kurumsal_orta - total debt :  0
+    3L1 : ticari_arac - 1678932.00 - 10/09/2022 - 16
+        3L1I1 -> 10/09/2022 - 104933.25  - To be Paid
+        3L1I2 -> 10/10/2022 - 104933.25  - To be Paid
+        3L1I3 -> 10/11/2022 - 104933.25  - To be Paid
+        3L1I4 -> 10/12/2022 - 104933.25  - To be Paid
+        3L1I5 -> 10/1/2023 - 104933.25  - To be Paid
+        3L1I6 -> 10/2/2023 - 104933.25  - To be Paid
+        3L1I7 -> 10/3/2023 - 104933.25  - To be Paid
+        3L1I8 -> 10/4/2023 - 104933.25  - To be Paid
+        3L1I9 -> 10/5/2023 - 104933.25  - To be Paid
+        3L1I10 -> 10/6/2023 - 104933.25  - To be Paid
+        3L1I11 -> 10/7/2023 - 104933.25  - To be Paid
+        3L1I12 -> 10/8/2023 - 104933.25  - To be Paid
+        3L1I13 -> 10/9/2023 - 104933.25  - To be Paid
+        3L1I14 -> 10/10/2023 - 104933.25  - To be Paid
+        3L1I15 -> 10/11/2023 - 104933.25  - To be Paid
+        3L1I16 -> 10/12/2023 - 104933.25  - To be Paid
+    3L2 : ticari_kasko - 6589.00 - 16/04/2023 - 3
+        3L2I1 -> 16/04/2023 - 2196.33  - To be Paid
+        3L2I2 -> 16/5/2023 - 2196.33  - To be Paid
+        3L2I3 -> 16/6/2023 - 2196.33  - To be Paid
+--------------------------------------------------
+4 - Yasemin  Adiguzel - type : bireysel - total debt :  0
+    4L1 : konut - 5998764.50 - 01/02/2021 - 27
+        4L1I1 -> 01/02/2021 - 222176.47  - To be Paid
+        4L1I2 -> 1/3/2021 - 222176.47  - To be Paid
+        4L1I3 -> 1/4/2021 - 222176.47  - To be Paid
+        4L1I4 -> 1/5/2021 - 222176.47  - To be Paid
+        4L1I5 -> 1/6/2021 - 222176.47  - To be Paid
+        4L1I6 -> 1/7/2021 - 222176.47  - To be Paid
+        4L1I7 -> 1/8/2021 - 222176.47  - To be Paid
+        4L1I8 -> 1/9/2021 - 222176.47  - To be Paid
+        4L1I9 -> 1/10/2021 - 222176.47  - To be Paid
+        4L1I10 -> 1/11/2021 - 222176.47  - To be Paid
+        4L1I11 -> 1/12/2021 - 222176.47  - To be Paid
+        4L1I12 -> 1/1/2022 - 222176.47  - To be Paid
+        4L1I13 -> 1/2/2022 - 222176.47  - To be Paid
+        4L1I14 -> 1/3/2022 - 222176.47  - To be Paid
+        4L1I15 -> 1/4/2022 - 222176.47  - To be Paid
+        4L1I16 -> 1/5/2022 - 222176.47  - To be Paid
+        4L1I17 -> 1/6/2022 - 222176.47  - To be Paid
+        4L1I18 -> 1/7/2022 - 222176.47  - To be Paid
+        4L1I19 -> 1/8/2022 - 222176.47  - To be Paid
+        4L1I20 -> 1/9/2022 - 222176.47  - To be Paid
+        4L1I21 -> 1/10/2022 - 222176.47  - To be Paid
+        4L1I22 -> 1/11/2022 - 222176.47  - To be Paid
+        4L1I23 -> 1/12/2022 - 222176.47  - To be Paid
+        4L1I24 -> 1/1/2023 - 222176.47  - To be Paid
+        4L1I25 -> 1/2/2023 - 222176.47  - To be Paid
+        4L1I26 -> 1/3/2023 - 222176.47  - To be Paid
+        4L1I27 -> 1/4/2023 - 222176.47  - To be Paid
+    4L2 : bireysel_emeklilik - 20896.13 - 21/07/2021 - 9
+        4L2I1 -> 21/07/2021 - 2321.79  - To be Paid
+        4L2I2 -> 21/8/2021 - 2321.79  - To be Paid
+        4L2I3 -> 21/9/2021 - 2321.79  - To be Paid
+        4L2I4 -> 21/10/2021 - 2321.79  - To be Paid
+        4L2I5 -> 21/11/2021 - 2321.79  - To be Paid
+        4L2I6 -> 21/12/2021 - 2321.79  - To be Paid
+        4L2I7 -> 21/1/2022 - 2321.79  - To be Paid
+        4L2I8 -> 21/2/2022 - 2321.79  - To be Paid
+        4L2I9 -> 21/3/2022 - 2321.79  - To be Paid
+--------------------------------------------------
+5 - Veli  Demir - type : kurumsal_buyuk - total debt :  0
+    5L1 : yatirim - 152745.98 - 10/12/2022 - 5
+        5L1I1 -> 10/12/2022 - 30549.20  - To be Paid
+        5L1I2 -> 10/1/2023 - 30549.20  - To be Paid
+        5L1I3 -> 10/2/2023 - 30549.20  - To be Paid
+        5L1I4 -> 10/3/2023 - 30549.20  - To be Paid
+        5L1I5 -> 10/4/2023 - 30549.20  - To be Paid
+    5L2 : ticari_kasko - 17921.00 - 12/12/2022 - 5
+        5L2I1 -> 12/12/2022 - 3584.20  - To be Paid
+        5L2I2 -> 12/1/2023 - 3584.20  - To be Paid
+        5L2I3 -> 12/2/2023 - 3584.20  - To be Paid
+        5L2I4 -> 12/3/2023 - 3584.20  - To be Paid
+        5L2I5 -> 12/4/2023 - 3584.20  - To be Paid
+    5L3 : calisan_saglik_sigortasi - 15410.00 - 15/12/2022 - 5
+        5L3I1 -> 15/12/2022 - 3082.00  - To be Paid
+        5L3I2 -> 15/1/2023 - 3082.00  - To be Paid
+        5L3I3 -> 15/2/2023 - 3082.00  - To be Paid
+        5L3I4 -> 15/3/2023 - 3082.00  - To be Paid
+        5L3I5 -> 15/4/2023 - 3082.00  - To be Paid
+    5L4 : ticari_trafik_sigortasi - 4158.03 - 02/04/2023 - 4
+        5L4I1 -> 02/04/2023 - 1039.51  - To be Paid
+        5L4I2 -> 2/5/2023 - 1039.51  - To be Paid
+        5L4I3 -> 2/6/2023 - 1039.51  - To be Paid
+        5L4I4 -> 2/7/2023 - 1039.51  - To be Paid
+    5L5 : isyeri_alimi - 6874581.00 - 03/04/2023 - 12
+        5L5I1 -> 03/04/2023 - 572881.75  - To be Paid
+        5L5I2 -> 3/5/2023 - 572881.75  - To be Paid
+        5L5I3 -> 3/6/2023 - 572881.75  - To be Paid
+        5L5I4 -> 3/7/2023 - 572881.75  - To be Paid
+        5L5I5 -> 3/8/2023 - 572881.75  - To be Paid
+        5L5I6 -> 3/9/2023 - 572881.75  - To be Paid
+        5L5I7 -> 3/10/2023 - 572881.75  - To be Paid
+        5L5I8 -> 3/11/2023 - 572881.75  - To be Paid
+        5L5I9 -> 3/12/2023 - 572881.75  - To be Paid
+        5L5I10 -> 3/1/2024 - 572881.75  - To be Paid
+        5L5I11 -> 3/2/2024 - 572881.75  - To be Paid
+        5L5I12 -> 3/3/2024 - 572881.75  - To be Paid
+--------------------------------------------------
+6 - Suzan  Celik - type : kurumsal_sirketici - total debt :  0
+    6L1 : elektronik - 15426.87 - 12/12/2020 - 9
+        6L1I1 -> 12/12/2020 - 1714.10  - To be Paid
+        6L1I2 -> 12/1/2021 - 1714.10  - To be Paid
+        6L1I3 -> 12/2/2021 - 1714.10  - To be Paid
+        6L1I4 -> 12/3/2021 - 1714.10  - To be Paid
+        6L1I5 -> 12/4/2021 - 1714.10  - To be Paid
+        6L1I6 -> 12/5/2021 - 1714.10  - To be Paid
+        6L1I7 -> 12/6/2021 - 1714.10  - To be Paid
+        6L1I8 -> 12/7/2021 - 1714.10  - To be Paid
+        6L1I9 -> 12/8/2021 - 1714.10  - To be Paid
+    6L2 : kasko - 4298.77 - 15/06/2021 - 3
+        6L2I1 -> 15/06/2021 - 1432.92  - To be Paid
+        6L2I2 -> 15/7/2021 - 1432.92  - To be Paid
+        6L2I3 -> 15/8/2021 - 1432.92  - To be Paid
+    6L3 : trafik_sigortasi - 7863.00 - 01/01/2022 - 3
+        6L3I1 -> 01/01/2022 - 2621.00  - To be Paid
+        6L3I2 -> 1/2/2022 - 2621.00  - To be Paid
+        6L3I3 -> 1/3/2022 - 2621.00  - To be Paid
+    6L4 : yatirim - 63512.31 - 15/10/2022 - 17
+        6L4I1 -> 15/10/2022 - 3736.02  - To be Paid
+        6L4I2 -> 15/11/2022 - 3736.02  - To be Paid
+        6L4I3 -> 15/12/2022 - 3736.02  - To be Paid
+        6L4I4 -> 15/1/2023 - 3736.02  - To be Paid
+        6L4I5 -> 15/2/2023 - 3736.02  - To be Paid
+        6L4I6 -> 15/3/2023 - 3736.02  - To be Paid
+        6L4I7 -> 15/4/2023 - 3736.02  - To be Paid
+        6L4I8 -> 15/5/2023 - 3736.02  - To be Paid
+        6L4I9 -> 15/6/2023 - 3736.02  - To be Paid
+        6L4I10 -> 15/7/2023 - 3736.02  - To be Paid
+        6L4I11 -> 15/8/2023 - 3736.02  - To be Paid
+        6L4I12 -> 15/9/2023 - 3736.02  - To be Paid
+        6L4I13 -> 15/10/2023 - 3736.02  - To be Paid
+        6L4I14 -> 15/11/2023 - 3736.02  - To be Paid
+        6L4I15 -> 15/12/2023 - 3736.02  - To be Paid
+        6L4I16 -> 15/1/2024 - 3736.02  - To be Paid
+        6L4I17 -> 15/2/2024 - 3736.02  - To be Paid
+--------------------------------------------------
+7 - Yeliz  Kara - type : bireysel_vip - total debt :  0
+    7L1 : saglik_sigortasi - 11498.00 - 16/11/2021 - 2
+        7L1I1 -> 16/11/2021 - 5749.00  - To be Paid
+        7L1I2 -> 16/12/2021 - 5749.00  - To be Paid
+    7L2 : yatirim - 45932.14 - 18/07/2022 - 6
+        7L2I1 -> 18/07/2022 - 7655.36  - To be Paid
+        7L2I2 -> 18/8/2022 - 7655.36  - To be Paid
+        7L2I3 -> 18/9/2022 - 7655.36  - To be Paid
+        7L2I4 -> 18/10/2022 - 7655.36  - To be Paid
+        7L2I5 -> 18/11/2022 - 7655.36  - To be Paid
+        7L2I6 -> 18/12/2022 - 7655.36  - To be Paid
+--------------------------------------------------
+8 - Tuna  Yildiz - type : kurumsal_kucuk - total debt :  0
+    8L1 : kobi_destek - 45268.00 - 07/09/2020 - 10
+        8L1I1 -> 07/09/2020 - 4526.80  - To be Paid
+        8L1I2 -> 7/10/2020 - 4526.80  - To be Paid
+        8L1I3 -> 7/11/2020 - 4526.80  - To be Paid
+        8L1I4 -> 7/12/2020 - 4526.80  - To be Paid
+        8L1I5 -> 7/1/2021 - 4526.80  - To be Paid
+        8L1I6 -> 7/2/2021 - 4526.80  - To be Paid
+        8L1I7 -> 7/3/2021 - 4526.80  - To be Paid
+        8L1I8 -> 7/4/2021 - 4526.80  - To be Paid
+        8L1I9 -> 7/5/2021 - 4526.80  - To be Paid
+        8L1I10 -> 7/6/2021 - 4526.80  - To be Paid
+    8L2 : baslangic_destek - 369784.00 - 23/11/2022 - 8
+        8L2I1 -> 23/11/2022 - 46223.00  - To be Paid
+        8L2I2 -> 23/12/2022 - 46223.00  - To be Paid
+        8L2I3 -> 23/1/2023 - 46223.00  - To be Paid
+        8L2I4 -> 23/2/2023 - 46223.00  - To be Paid
+        8L2I5 -> 23/3/2023 - 46223.00  - To be Paid
+        8L2I6 -> 23/4/2023 - 46223.00  - To be Paid
+        8L2I7 -> 23/5/2023 - 46223.00  - To be Paid
+        8L2I8 -> 23/6/2023 - 46223.00  - To be Paid
+--------------------------------------------------
+9 - Polat  Caliskan - type : kurumsal_sirketici - total debt :  0
+    9L1 : elektronik - 52456.00 - 19/09/2021 - 9
+        9L1I1 -> 19/09/2021 - 5828.44  - To be Paid
+        9L1I2 -> 19/10/2021 - 5828.44  - To be Paid
+        9L1I3 -> 19/11/2021 - 5828.44  - To be Paid
+        9L1I4 -> 19/12/2021 - 5828.44  - To be Paid
+        9L1I5 -> 19/1/2022 - 5828.44  - To be Paid
+        9L1I6 -> 19/2/2022 - 5828.44  - To be Paid
+        9L1I7 -> 19/3/2022 - 5828.44  - To be Paid
+        9L1I8 -> 19/4/2022 - 5828.44  - To be Paid
+        9L1I9 -> 19/5/2022 - 5828.44  - To be Paid
+    9L2 : saglik_sigortasi - 4985.45 - 08/12/2021 - 4
+        9L2I1 -> 08/12/2021 - 1246.36  - To be Paid
+        9L2I2 -> 8/1/2022 - 1246.36  - To be Paid
+        9L2I3 -> 8/2/2022 - 1246.36  - To be Paid
+        9L2I4 -> 8/3/2022 - 1246.36  - To be Paid
+--------------------------------------------------
+10 - Berkecan  Yildirim - type : kurumsal_orta - total debt :  0
+    10L1 : ticari_kasko - 13942.10 - 09/03/2021 - 5
+        10L1I1 -> 09/03/2021 - 2788.42  - To be Paid
+        10L1I2 -> 9/4/2021 - 2788.42  - To be Paid
+        10L1I3 -> 9/5/2021 - 2788.42  - To be Paid
+        10L1I4 -> 9/6/2021 - 2788.42  - To be Paid
+        10L1I5 -> 9/7/2021 - 2788.42  - To be Paid
+    10L2 : ticari_arac - 754129.31 - 12/12/2022 - 20
+        10L2I1 -> 12/12/2022 - 37706.46  - To be Paid
+        10L2I2 -> 12/1/2023 - 37706.46  - To be Paid
+        10L2I3 -> 12/2/2023 - 37706.46  - To be Paid
+        10L2I4 -> 12/3/2023 - 37706.46  - To be Paid
+        10L2I5 -> 12/4/2023 - 37706.46  - To be Paid
+        10L2I6 -> 12/5/2023 - 37706.46  - To be Paid
+        10L2I7 -> 12/6/2023 - 37706.46  - To be Paid
+        10L2I8 -> 12/7/2023 - 37706.46  - To be Paid
+        10L2I9 -> 12/8/2023 - 37706.46  - To be Paid
+        10L2I10 -> 12/9/2023 - 37706.46  - To be Paid
+        10L2I11 -> 12/10/2023 - 37706.46  - To be Paid
+        10L2I12 -> 12/11/2023 - 37706.46  - To be Paid
+        10L2I13 -> 12/12/2023 - 37706.46  - To be Paid
+        10L2I14 -> 12/1/2024 - 37706.46  - To be Paid
+        10L2I15 -> 12/2/2024 - 37706.46  - To be Paid
+        10L2I16 -> 12/3/2024 - 37706.46  - To be Paid
+        10L2I17 -> 12/4/2024 - 37706.46  - To be Paid
+        10L2I18 -> 12/5/2024 - 37706.46  - To be Paid
+        10L2I19 -> 12/6/2024 - 37706.46  - To be Paid
+        10L2I20 -> 12/7/2024 - 37706.46  - To be Paid
+--------------------------------------------------
+11 - Demet  Avci - type : kurumsal_orta - total debt :  0
+    11L1 : ticari_trafik_sigortasi - 8354.67 - 06/04/2022 - 3
+        11L1I1 -> 06/04/2022 - 2784.89  - To be Paid
+        11L1I2 -> 6/5/2022 - 2784.89  - To be Paid
+        11L1I3 -> 6/6/2022 - 2784.89  - To be Paid
+    11L2 : ticari_kasko - 20974.31 - 20/12/2022 - 7
+        11L2I1 -> 20/12/2022 - 2996.33  - To be Paid
+        11L2I2 -> 20/1/2023 - 2996.33  - To be Paid
+        11L2I3 -> 20/2/2023 - 2996.33  - To be Paid
+        11L2I4 -> 20/3/2023 - 2996.33  - To be Paid
+        11L2I5 -> 20/4/2023 - 2996.33  - To be Paid
+        11L2I6 -> 20/5/2023 - 2996.33  - To be Paid
+        11L2I7 -> 20/6/2023 - 2996.33  - To be Paid
+--------------------------------------------------
+12 - Derya  Polat - type : bireysel - total debt :  0
+    12L1 : kasko - 3617.75 - 01/01/2018 - 4
+        12L1I1 -> 01/01/2018 - 904.44  - To be Paid
+        12L1I2 -> 1/2/2018 - 904.44  - To be Paid
+        12L1I3 -> 1/3/2018 - 904.44  - To be Paid
+        12L1I4 -> 1/4/2018 - 904.44  - To be Paid
+    12L2 : elektronik - 15203.42 - 15/08/2018 - 6
+        12L2I1 -> 15/08/2018 - 2533.90  - To be Paid
+        12L2I2 -> 15/9/2018 - 2533.90  - To be Paid
+        12L2I3 -> 15/10/2018 - 2533.90  - To be Paid
+        12L2I4 -> 15/11/2018 - 2533.90  - To be Paid
+        12L2I5 -> 15/12/2018 - 2533.90  - To be Paid
+        12L2I6 -> 15/1/2019 - 2533.90  - To be Paid
+    12L3 : bireysel_emeklilik - 30485.00 - 19/09/2019 - 7
+        12L3I1 -> 19/09/2019 - 4355.00  - To be Paid
+        12L3I2 -> 19/10/2019 - 4355.00  - To be Paid
+        12L3I3 -> 19/11/2019 - 4355.00  - To be Paid
+        12L3I4 -> 19/12/2019 - 4355.00  - To be Paid
+        12L3I5 -> 19/1/2020 - 4355.00  - To be Paid
+        12L3I6 -> 19/2/2020 - 4355.00  - To be Paid
+        12L3I7 -> 19/3/2020 - 4355.00  - To be Paid
+    12L4 : trafik_sigortasi - 1743.55 - 17/12/2022 - 2
+        12L4I1 -> 17/12/2022 - 871.78  - To be Paid
+        12L4I2 -> 17/1/2023 - 871.78  - To be Paid
+--------------------------------------------------
+13 - Canan  Karakaya - type : kurumsal_kucuk - total debt :  0
+    13L1 : kobi_destek - 98786.00 - 10/12/2019 - 17
+        13L1I1 -> 10/12/2019 - 5810.94  - To be Paid
+        13L1I2 -> 10/1/2020 - 5810.94  - To be Paid
+        13L1I3 -> 10/2/2020 - 5810.94  - To be Paid
+        13L1I4 -> 10/3/2020 - 5810.94  - To be Paid
+        13L1I5 -> 10/4/2020 - 5810.94  - To be Paid
+        13L1I6 -> 10/5/2020 - 5810.94  - To be Paid
+        13L1I7 -> 10/6/2020 - 5810.94  - To be Paid
+        13L1I8 -> 10/7/2020 - 5810.94  - To be Paid
+        13L1I9 -> 10/8/2020 - 5810.94  - To be Paid
+        13L1I10 -> 10/9/2020 - 5810.94  - To be Paid
+        13L1I11 -> 10/10/2020 - 5810.94  - To be Paid
+        13L1I12 -> 10/11/2020 - 5810.94  - To be Paid
+        13L1I13 -> 10/12/2020 - 5810.94  - To be Paid
+        13L1I14 -> 10/1/2021 - 5810.94  - To be Paid
+        13L1I15 -> 10/2/2021 - 5810.94  - To be Paid
+        13L1I16 -> 10/3/2021 - 5810.94  - To be Paid
+        13L1I17 -> 10/4/2021 - 5810.94  - To be Paid
+    13L2 : ticari_trafik_sigortasi - 9173.22 - 17/03/2023 - 4
+        13L2I1 -> 17/03/2023 - 2293.30  - To be Paid
+        13L2I2 -> 17/4/2023 - 2293.30  - To be Paid
+        13L2I3 -> 17/5/2023 - 2293.30  - To be Paid
+        13L2I4 -> 17/6/2023 - 2293.30  - To be Paid
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+7
+#############################################################
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+6
+#############################################################
+--------------------------------------------------
+1 - Ali  Kaya - type : bireysel - total debt :  0
+    1L1 : ihtiyac - 10256.75 - 29/11/2022 - 15
+        1L1I1 -> 29/11/2022 - 683.78  - Paid
+        1L1I2 -> 29/12/2022 - 683.78  - To be Paid
+        1L1I3 -> 29/1/2023 - 683.78  - Paid
+        1L1I4 -> 29/2/2023 - 683.78  - Paid
+        1L1I5 -> 29/3/2023 - 683.78  - To be Paid
+        1L1I6 -> 29/4/2023 - 683.78  - To be Paid
+        1L1I7 -> 29/5/2023 - 683.78  - To be Paid
+        1L1I8 -> 29/6/2023 - 683.78  - To be Paid
+        1L1I9 -> 29/7/2023 - 683.78  - To be Paid
+        1L1I10 -> 29/8/2023 - 683.78  - To be Paid
+        1L1I11 -> 29/9/2023 - 683.78  - To be Paid
+        1L1I12 -> 29/10/2023 - 683.78  - To be Paid
+        1L1I13 -> 29/11/2023 - 683.78  - To be Paid
+        1L1I14 -> 29/12/2023 - 683.78  - To be Paid
+        1L1I15 -> 29/1/2024 - 683.78  - To be Paid
+    1L2 : saglik_sigortasi - 15361.00 - 25/02/2023 - 7
+        1L2I1 -> 25/02/2023 - 2194.43  - Paid
+        1L2I2 -> 25/3/2023 - 2194.43  - Paid
+        1L2I3 -> 25/4/2023 - 2194.43  - To be Paid
+        1L2I4 -> 25/5/2023 - 2194.43  - To be Paid
+        1L2I5 -> 25/6/2023 - 2194.43  - To be Paid
+        1L2I6 -> 25/7/2023 - 2194.43  - To be Paid
+        1L2I7 -> 25/8/2023 - 2194.43  - To be Paid
+--------------------------------------------------
+2 - Asli  Bulut - type : kurumsal_kucuk - total debt :  0
+    2L1 : ticari_arac - 845701.25 - 08/08/2020 - 12
+        2L1I1 -> 08/08/2020 - 70475.10  - Paid
+        2L1I2 -> 8/9/2020 - 70475.10  - Paid
+        2L1I3 -> 8/10/2020 - 70475.10  - Paid
+        2L1I4 -> 8/11/2020 - 70475.10  - Paid
+        2L1I5 -> 8/12/2020 - 70475.10  - Paid
+        2L1I6 -> 8/1/2021 - 70475.10  - Paid
+        2L1I7 -> 8/2/2021 - 70475.10  - Paid
+        2L1I8 -> 8/3/2021 - 70475.10  - Paid
+        2L1I9 -> 8/4/2021 - 70475.10  - Paid
+        2L1I10 -> 8/5/2021 - 70475.10  - Paid
+        2L1I11 -> 8/6/2021 - 70475.10  - Paid
+        2L1I12 -> 8/7/2021 - 70475.10  - Paid
+    2L2 : kobi_destek - 90587.93 - 28/12/2022 - 17
+        2L2I1 -> 28/12/2022 - 5328.70  - Paid
+        2L2I2 -> 28/1/2023 - 5328.70  - Paid
+        2L2I3 -> 28/2/2023 - 5328.70  - To be Paid
+        2L2I4 -> 28/3/2023 - 5328.70  - To be Paid
+        2L2I5 -> 28/4/2023 - 5328.70  - To be Paid
+        2L2I6 -> 28/5/2023 - 5328.70  - To be Paid
+        2L2I7 -> 28/6/2023 - 5328.70  - To be Paid
+        2L2I8 -> 28/7/2023 - 5328.70  - To be Paid
+        2L2I9 -> 28/8/2023 - 5328.70  - To be Paid
+        2L2I10 -> 28/9/2023 - 5328.70  - To be Paid
+        2L2I11 -> 28/10/2023 - 5328.70  - To be Paid
+        2L2I12 -> 28/11/2023 - 5328.70  - To be Paid
+        2L2I13 -> 28/12/2023 - 5328.70  - To be Paid
+        2L2I14 -> 28/1/2024 - 5328.70  - To be Paid
+        2L2I15 -> 28/2/2024 - 5328.70  - To be Paid
+        2L2I16 -> 28/3/2024 - 5328.70  - To be Paid
+        2L2I17 -> 28/4/2024 - 5328.70  - To be Paid
+--------------------------------------------------
+3 - Mehmet  Candan - type : kurumsal_orta - total debt :  0
+    3L1 : ticari_arac - 1678932.00 - 10/09/2022 - 16
+        3L1I1 -> 10/09/2022 - 104933.25  - Paid
+        3L1I2 -> 10/10/2022 - 104933.25  - To be Paid
+        3L1I3 -> 10/11/2022 - 104933.25  - To be Paid
+        3L1I4 -> 10/12/2022 - 104933.25  - Paid
+        3L1I5 -> 10/1/2023 - 104933.25  - Paid
+        3L1I6 -> 10/2/2023 - 104933.25  - Paid
+        3L1I7 -> 10/3/2023 - 104933.25  - Paid
+        3L1I8 -> 10/4/2023 - 104933.25  - To be Paid
+        3L1I9 -> 10/5/2023 - 104933.25  - To be Paid
+        3L1I10 -> 10/6/2023 - 104933.25  - To be Paid
+        3L1I11 -> 10/7/2023 - 104933.25  - To be Paid
+        3L1I12 -> 10/8/2023 - 104933.25  - To be Paid
+        3L1I13 -> 10/9/2023 - 104933.25  - To be Paid
+        3L1I14 -> 10/10/2023 - 104933.25  - To be Paid
+        3L1I15 -> 10/11/2023 - 104933.25  - To be Paid
+        3L1I16 -> 10/12/2023 - 104933.25  - To be Paid
+    3L2 : ticari_kasko - 6589.00 - 16/04/2023 - 3
+        3L2I1 -> 16/04/2023 - 2196.33  - Paid
+        3L2I2 -> 16/5/2023 - 2196.33  - Paid
+        3L2I3 -> 16/6/2023 - 2196.33  - Paid
+--------------------------------------------------
+4 - Yasemin  Adiguzel - type : bireysel - total debt :  0
+    4L1 : konut - 5998764.50 - 01/02/2021 - 27
+        4L1I1 -> 01/02/2021 - 222176.47  - Paid
+        4L1I2 -> 1/3/2021 - 222176.47  - Paid
+        4L1I3 -> 1/4/2021 - 222176.47  - Paid
+        4L1I4 -> 1/5/2021 - 222176.47  - Paid
+        4L1I5 -> 1/6/2021 - 222176.47  - Paid
+        4L1I6 -> 1/7/2021 - 222176.47  - Paid
+        4L1I7 -> 1/8/2021 - 222176.47  - Paid
+        4L1I8 -> 1/9/2021 - 222176.47  - Paid
+        4L1I9 -> 1/10/2021 - 222176.47  - Paid
+        4L1I10 -> 1/11/2021 - 222176.47  - Paid
+        4L1I11 -> 1/12/2021 - 222176.47  - Paid
+        4L1I12 -> 1/1/2022 - 222176.47  - Paid
+        4L1I13 -> 1/2/2022 - 222176.47  - Paid
+        4L1I14 -> 1/3/2022 - 222176.47  - Paid
+        4L1I15 -> 1/4/2022 - 222176.47  - Paid
+        4L1I16 -> 1/5/2022 - 222176.47  - Paid
+        4L1I17 -> 1/6/2022 - 222176.47  - Paid
+        4L1I18 -> 1/7/2022 - 222176.47  - Paid
+        4L1I19 -> 1/8/2022 - 222176.47  - Paid
+        4L1I20 -> 1/9/2022 - 222176.47  - Paid
+        4L1I21 -> 1/10/2022 - 222176.47  - Paid
+        4L1I22 -> 1/11/2022 - 222176.47  - Paid
+        4L1I23 -> 1/12/2022 - 222176.47  - Paid
+        4L1I24 -> 1/1/2023 - 222176.47  - Paid
+        4L1I25 -> 1/2/2023 - 222176.47  - Paid
+        4L1I26 -> 1/3/2023 - 222176.47  - Paid
+        4L1I27 -> 1/4/2023 - 222176.47  - Paid
+    4L2 : bireysel_emeklilik - 20896.13 - 21/07/2021 - 9
+        4L2I1 -> 21/07/2021 - 2321.79  - Paid
+        4L2I2 -> 21/8/2021 - 2321.79  - Paid
+        4L2I3 -> 21/9/2021 - 2321.79  - Paid
+        4L2I4 -> 21/10/2021 - 2321.79  - Paid
+        4L2I5 -> 21/11/2021 - 2321.79  - Paid
+        4L2I6 -> 21/12/2021 - 2321.79  - Paid
+        4L2I7 -> 21/1/2022 - 2321.79  - Paid
+        4L2I8 -> 21/2/2022 - 2321.79  - Paid
+        4L2I9 -> 21/3/2022 - 2321.79  - Paid
+--------------------------------------------------
+5 - Veli  Demir - type : kurumsal_buyuk - total debt :  0
+    5L1 : yatirim - 152745.98 - 10/12/2022 - 5
+        5L1I1 -> 10/12/2022 - 30549.20  - Paid
+        5L1I2 -> 10/1/2023 - 30549.20  - To be Paid
+        5L1I3 -> 10/2/2023 - 30549.20  - To be Paid
+        5L1I4 -> 10/3/2023 - 30549.20  - To be Paid
+        5L1I5 -> 10/4/2023 - 30549.20  - To be Paid
+    5L2 : ticari_kasko - 17921.00 - 12/12/2022 - 5
+        5L2I1 -> 12/12/2022 - 3584.20  - Paid
+        5L2I2 -> 12/1/2023 - 3584.20  - Paid
+        5L2I3 -> 12/2/2023 - 3584.20  - To be Paid
+        5L2I4 -> 12/3/2023 - 3584.20  - To be Paid
+        5L2I5 -> 12/4/2023 - 3584.20  - To be Paid
+    5L3 : calisan_saglik_sigortasi - 15410.00 - 15/12/2022 - 5
+        5L3I1 -> 15/12/2022 - 3082.00  - Paid
+        5L3I2 -> 15/1/2023 - 3082.00  - Paid
+        5L3I3 -> 15/2/2023 - 3082.00  - Paid
+        5L3I4 -> 15/3/2023 - 3082.00  - Paid
+        5L3I5 -> 15/4/2023 - 3082.00  - Paid
+    5L4 : ticari_trafik_sigortasi - 4158.03 - 02/04/2023 - 4
+        5L4I1 -> 02/04/2023 - 1039.51  - Paid
+        5L4I2 -> 2/5/2023 - 1039.51  - To be Paid
+        5L4I3 -> 2/6/2023 - 1039.51  - To be Paid
+        5L4I4 -> 2/7/2023 - 1039.51  - To be Paid
+    5L5 : isyeri_alimi - 6874581.00 - 03/04/2023 - 12
+        5L5I1 -> 03/04/2023 - 572881.75  - Paid
+        5L5I2 -> 3/5/2023 - 572881.75  - To be Paid
+        5L5I3 -> 3/6/2023 - 572881.75  - To be Paid
+        5L5I4 -> 3/7/2023 - 572881.75  - To be Paid
+        5L5I5 -> 3/8/2023 - 572881.75  - To be Paid
+        5L5I6 -> 3/9/2023 - 572881.75  - To be Paid
+        5L5I7 -> 3/10/2023 - 572881.75  - To be Paid
+        5L5I8 -> 3/11/2023 - 572881.75  - To be Paid
+        5L5I9 -> 3/12/2023 - 572881.75  - To be Paid
+        5L5I10 -> 3/1/2024 - 572881.75  - To be Paid
+        5L5I11 -> 3/2/2024 - 572881.75  - To be Paid
+        5L5I12 -> 3/3/2024 - 572881.75  - To be Paid
+--------------------------------------------------
+6 - Suzan  Celik - type : kurumsal_sirketici - total debt :  0
+    6L1 : elektronik - 15426.87 - 12/12/2020 - 9
+        6L1I1 -> 12/12/2020 - 1714.10  - Paid
+        6L1I2 -> 12/1/2021 - 1714.10  - Paid
+        6L1I3 -> 12/2/2021 - 1714.10  - Paid
+        6L1I4 -> 12/3/2021 - 1714.10  - Paid
+        6L1I5 -> 12/4/2021 - 1714.10  - Paid
+        6L1I6 -> 12/5/2021 - 1714.10  - Paid
+        6L1I7 -> 12/6/2021 - 1714.10  - Paid
+        6L1I8 -> 12/7/2021 - 1714.10  - Paid
+        6L1I9 -> 12/8/2021 - 1714.10  - Paid
+    6L2 : kasko - 4298.77 - 15/06/2021 - 3
+        6L2I1 -> 15/06/2021 - 1432.92  - Paid
+        6L2I2 -> 15/7/2021 - 1432.92  - Paid
+        6L2I3 -> 15/8/2021 - 1432.92  - Paid
+    6L3 : trafik_sigortasi - 7863.00 - 01/01/2022 - 3
+        6L3I1 -> 01/01/2022 - 2621.00  - Paid
+        6L3I2 -> 1/2/2022 - 2621.00  - Paid
+        6L3I3 -> 1/3/2022 - 2621.00  - Paid
+    6L4 : yatirim - 63512.31 - 15/10/2022 - 17
+        6L4I1 -> 15/10/2022 - 3736.02  - Paid
+        6L4I2 -> 15/11/2022 - 3736.02  - Paid
+        6L4I3 -> 15/12/2022 - 3736.02  - Paid
+        6L4I4 -> 15/1/2023 - 3736.02  - Paid
+        6L4I5 -> 15/2/2023 - 3736.02  - Paid
+        6L4I6 -> 15/3/2023 - 3736.02  - Paid
+        6L4I7 -> 15/4/2023 - 3736.02  - Paid
+        6L4I8 -> 15/5/2023 - 3736.02  - To be Paid
+        6L4I9 -> 15/6/2023 - 3736.02  - To be Paid
+        6L4I10 -> 15/7/2023 - 3736.02  - To be Paid
+        6L4I11 -> 15/8/2023 - 3736.02  - To be Paid
+        6L4I12 -> 15/9/2023 - 3736.02  - To be Paid
+        6L4I13 -> 15/10/2023 - 3736.02  - To be Paid
+        6L4I14 -> 15/11/2023 - 3736.02  - To be Paid
+        6L4I15 -> 15/12/2023 - 3736.02  - To be Paid
+        6L4I16 -> 15/1/2024 - 3736.02  - To be Paid
+        6L4I17 -> 15/2/2024 - 3736.02  - To be Paid
+--------------------------------------------------
+7 - Yeliz  Kara - type : bireysel_vip - total debt :  0
+    7L1 : saglik_sigortasi - 11498.00 - 16/11/2021 - 2
+        7L1I1 -> 16/11/2021 - 5749.00  - Paid
+        7L1I2 -> 16/12/2021 - 5749.00  - Paid
+    7L2 : yatirim - 45932.14 - 18/07/2022 - 6
+        7L2I1 -> 18/07/2022 - 7655.36  - Paid
+        7L2I2 -> 18/8/2022 - 7655.36  - Paid
+        7L2I3 -> 18/9/2022 - 7655.36  - Paid
+        7L2I4 -> 18/10/2022 - 7655.36  - Paid
+        7L2I5 -> 18/11/2022 - 7655.36  - Paid
+        7L2I6 -> 18/12/2022 - 7655.36  - Paid
+--------------------------------------------------
+8 - Tuna  Yildiz - type : kurumsal_kucuk - total debt :  0
+    8L1 : kobi_destek - 45268.00 - 07/09/2020 - 10
+        8L1I1 -> 07/09/2020 - 4526.80  - Paid
+        8L1I2 -> 7/10/2020 - 4526.80  - Paid
+        8L1I3 -> 7/11/2020 - 4526.80  - Paid
+        8L1I4 -> 7/12/2020 - 4526.80  - Paid
+        8L1I5 -> 7/1/2021 - 4526.80  - Paid
+        8L1I6 -> 7/2/2021 - 4526.80  - Paid
+        8L1I7 -> 7/3/2021 - 4526.80  - Paid
+        8L1I8 -> 7/4/2021 - 4526.80  - Paid
+        8L1I9 -> 7/5/2021 - 4526.80  - Paid
+        8L1I10 -> 7/6/2021 - 4526.80  - Paid
+    8L2 : baslangic_destek - 369784.00 - 23/11/2022 - 8
+        8L2I1 -> 23/11/2022 - 46223.00  - Paid
+        8L2I2 -> 23/12/2022 - 46223.00  - Paid
+        8L2I3 -> 23/1/2023 - 46223.00  - Paid
+        8L2I4 -> 23/2/2023 - 46223.00  - Paid
+        8L2I5 -> 23/3/2023 - 46223.00  - Paid
+        8L2I6 -> 23/4/2023 - 46223.00  - To be Paid
+        8L2I7 -> 23/5/2023 - 46223.00  - To be Paid
+        8L2I8 -> 23/6/2023 - 46223.00  - To be Paid
+--------------------------------------------------
+9 - Polat  Caliskan - type : kurumsal_sirketici - total debt :  0
+    9L1 : elektronik - 52456.00 - 19/09/2021 - 9
+        9L1I1 -> 19/09/2021 - 5828.44  - Paid
+        9L1I2 -> 19/10/2021 - 5828.44  - Paid
+        9L1I3 -> 19/11/2021 - 5828.44  - Paid
+        9L1I4 -> 19/12/2021 - 5828.44  - Paid
+        9L1I5 -> 19/1/2022 - 5828.44  - Paid
+        9L1I6 -> 19/2/2022 - 5828.44  - Paid
+        9L1I7 -> 19/3/2022 - 5828.44  - Paid
+        9L1I8 -> 19/4/2022 - 5828.44  - Paid
+        9L1I9 -> 19/5/2022 - 5828.44  - Paid
+    9L2 : saglik_sigortasi - 4985.45 - 08/12/2021 - 4
+        9L2I1 -> 08/12/2021 - 1246.36  - Paid
+        9L2I2 -> 8/1/2022 - 1246.36  - Paid
+        9L2I3 -> 8/2/2022 - 1246.36  - Paid
+        9L2I4 -> 8/3/2022 - 1246.36  - Paid
+--------------------------------------------------
+10 - Berkecan  Yildirim - type : kurumsal_orta - total debt :  0
+    10L1 : ticari_kasko - 13942.10 - 09/03/2021 - 5
+        10L1I1 -> 09/03/2021 - 2788.42  - Paid
+        10L1I2 -> 9/4/2021 - 2788.42  - Paid
+        10L1I3 -> 9/5/2021 - 2788.42  - Paid
+        10L1I4 -> 9/6/2021 - 2788.42  - Paid
+        10L1I5 -> 9/7/2021 - 2788.42  - Paid
+    10L2 : ticari_arac - 754129.31 - 12/12/2022 - 20
+        10L2I1 -> 12/12/2022 - 37706.46  - Paid
+        10L2I2 -> 12/1/2023 - 37706.46  - Paid
+        10L2I3 -> 12/2/2023 - 37706.46  - Paid
+        10L2I4 -> 12/3/2023 - 37706.46  - Paid
+        10L2I5 -> 12/4/2023 - 37706.46  - Paid
+        10L2I6 -> 12/5/2023 - 37706.46  - To be Paid
+        10L2I7 -> 12/6/2023 - 37706.46  - To be Paid
+        10L2I8 -> 12/7/2023 - 37706.46  - To be Paid
+        10L2I9 -> 12/8/2023 - 37706.46  - To be Paid
+        10L2I10 -> 12/9/2023 - 37706.46  - To be Paid
+        10L2I11 -> 12/10/2023 - 37706.46  - To be Paid
+        10L2I12 -> 12/11/2023 - 37706.46  - To be Paid
+        10L2I13 -> 12/12/2023 - 37706.46  - To be Paid
+        10L2I14 -> 12/1/2024 - 37706.46  - To be Paid
+        10L2I15 -> 12/2/2024 - 37706.46  - To be Paid
+        10L2I16 -> 12/3/2024 - 37706.46  - To be Paid
+        10L2I17 -> 12/4/2024 - 37706.46  - To be Paid
+        10L2I18 -> 12/5/2024 - 37706.46  - To be Paid
+        10L2I19 -> 12/6/2024 - 37706.46  - To be Paid
+        10L2I20 -> 12/7/2024 - 37706.46  - To be Paid
+--------------------------------------------------
+11 - Demet  Avci - type : kurumsal_orta - total debt :  0
+    11L1 : ticari_trafik_sigortasi - 8354.67 - 06/04/2022 - 3
+        11L1I1 -> 06/04/2022 - 2784.89  - Paid
+        11L1I2 -> 6/5/2022 - 2784.89  - Paid
+        11L1I3 -> 6/6/2022 - 2784.89  - Paid
+    11L2 : ticari_kasko - 20974.31 - 20/12/2022 - 7
+        11L2I1 -> 20/12/2022 - 2996.33  - Paid
+        11L2I2 -> 20/1/2023 - 2996.33  - Paid
+        11L2I3 -> 20/2/2023 - 2996.33  - Paid
+        11L2I4 -> 20/3/2023 - 2996.33  - To be Paid
+        11L2I5 -> 20/4/2023 - 2996.33  - To be Paid
+        11L2I6 -> 20/5/2023 - 2996.33  - To be Paid
+        11L2I7 -> 20/6/2023 - 2996.33  - To be Paid
+--------------------------------------------------
+12 - Derya  Polat - type : bireysel - total debt :  0
+    12L1 : kasko - 3617.75 - 01/01/2018 - 4
+        12L1I1 -> 01/01/2018 - 904.44  - Paid
+        12L1I2 -> 1/2/2018 - 904.44  - Paid
+        12L1I3 -> 1/3/2018 - 904.44  - Paid
+        12L1I4 -> 1/4/2018 - 904.44  - Paid
+    12L2 : elektronik - 15203.42 - 15/08/2018 - 6
+        12L2I1 -> 15/08/2018 - 2533.90  - Paid
+        12L2I2 -> 15/9/2018 - 2533.90  - Paid
+        12L2I3 -> 15/10/2018 - 2533.90  - Paid
+        12L2I4 -> 15/11/2018 - 2533.90  - Paid
+        12L2I5 -> 15/12/2018 - 2533.90  - Paid
+        12L2I6 -> 15/1/2019 - 2533.90  - Paid
+    12L3 : bireysel_emeklilik - 30485.00 - 19/09/2019 - 7
+        12L3I1 -> 19/09/2019 - 4355.00  - Paid
+        12L3I2 -> 19/10/2019 - 4355.00  - Paid
+        12L3I3 -> 19/11/2019 - 4355.00  - Paid
+        12L3I4 -> 19/12/2019 - 4355.00  - Paid
+        12L3I5 -> 19/1/2020 - 4355.00  - Paid
+        12L3I6 -> 19/2/2020 - 4355.00  - Paid
+        12L3I7 -> 19/3/2020 - 4355.00  - Paid
+    12L4 : trafik_sigortasi - 1743.55 - 17/12/2022 - 2
+        12L4I1 -> 17/12/2022 - 871.78  - Paid
+        12L4I2 -> 17/1/2023 - 871.78  - To be Paid
+--------------------------------------------------
+13 - Canan  Karakaya - type : kurumsal_kucuk - total debt :  0
+    13L1 : kobi_destek - 98786.00 - 10/12/2019 - 17
+        13L1I1 -> 10/12/2019 - 5810.94  - Paid
+        13L1I2 -> 10/1/2020 - 5810.94  - Paid
+        13L1I3 -> 10/2/2020 - 5810.94  - Paid
+        13L1I4 -> 10/3/2020 - 5810.94  - Paid
+        13L1I5 -> 10/4/2020 - 5810.94  - Paid
+        13L1I6 -> 10/5/2020 - 5810.94  - Paid
+        13L1I7 -> 10/6/2020 - 5810.94  - Paid
+        13L1I8 -> 10/7/2020 - 5810.94  - Paid
+        13L1I9 -> 10/8/2020 - 5810.94  - Paid
+        13L1I10 -> 10/9/2020 - 5810.94  - Paid
+        13L1I11 -> 10/10/2020 - 5810.94  - Paid
+        13L1I12 -> 10/11/2020 - 5810.94  - Paid
+        13L1I13 -> 10/12/2020 - 5810.94  - Paid
+        13L1I14 -> 10/1/2021 - 5810.94  - Paid
+        13L1I15 -> 10/2/2021 - 5810.94  - Paid
+        13L1I16 -> 10/3/2021 - 5810.94  - Paid
+        13L1I17 -> 10/4/2021 - 5810.94  - Paid
+    13L2 : ticari_trafik_sigortasi - 9173.22 - 17/03/2023 - 4
+        13L2I1 -> 17/03/2023 - 2293.30  - Paid
+        13L2I2 -> 17/4/2023 - 2293.30  - Paid
+        13L2I3 -> 17/5/2023 - 2293.30  - To be Paid
+        13L2I4 -> 17/6/2023 - 2293.30  - To be Paid
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+8
+#############################################################
+please enter a date:
+01/06/2023
+Ali Kaya : Debt 7123.99 Number of Delayed Installments 6
+Asli Bulut : Debt 21314.81 Number of Delayed Installments 4
+Mehmet Candan : Debt 419733.00 Number of Delayed Installments 4
+Veli Demir : Debt 706870.65 Number of Delayed Installments 9
+Suzan Celik : Debt 3736.02 Number of Delayed Installments 1
+Tuna Yildiz : Debt 92446.00 Number of Delayed Installments 2
+Berkecan Yildirim : Debt 37706.46 Number of Delayed Installments 1
+Demet Avci : Debt 8988.99 Number of Delayed Installments 3
+Derya Polat : Debt 871.78 Number of Delayed Installments 1
+Canan Karakaya : Debt 2293.30 Number of Delayed Installments 1
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+9
+#############################################################
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+6
+#############################################################
+--------------------------------------------------
+1 - Ali  Kaya - type : bireysel - total debt : 7124
+    1L1 : ihtiyac - 10256.75 - 29/11/2022 - 15
+        1L1I1 -> 29/11/2022 - 683.78  - Paid
+        1L1I2 -> 29/12/2022 - 683.78  - Delayed Payment
+        1L1I3 -> 29/1/2023 - 683.78  - Paid
+        1L1I4 -> 29/2/2023 - 683.78  - Paid
+        1L1I5 -> 29/3/2023 - 683.78  - Delayed Payment
+        1L1I6 -> 29/4/2023 - 683.78  - Delayed Payment
+        1L1I7 -> 29/5/2023 - 683.78  - Delayed Payment
+        1L1I8 -> 29/6/2023 - 683.78  - To be Paid
+        1L1I9 -> 29/7/2023 - 683.78  - To be Paid
+        1L1I10 -> 29/8/2023 - 683.78  - To be Paid
+        1L1I11 -> 29/9/2023 - 683.78  - To be Paid
+        1L1I12 -> 29/10/2023 - 683.78  - To be Paid
+        1L1I13 -> 29/11/2023 - 683.78  - To be Paid
+        1L1I14 -> 29/12/2023 - 683.78  - To be Paid
+        1L1I15 -> 29/1/2024 - 683.78  - To be Paid
+    1L2 : saglik_sigortasi - 15361.00 - 25/02/2023 - 7
+        1L2I1 -> 25/02/2023 - 2194.43  - Paid
+        1L2I2 -> 25/3/2023 - 2194.43  - Paid
+        1L2I3 -> 25/4/2023 - 2194.43  - Delayed Payment
+        1L2I4 -> 25/5/2023 - 2194.43  - Delayed Payment
+        1L2I5 -> 25/6/2023 - 2194.43  - To be Paid
+        1L2I6 -> 25/7/2023 - 2194.43  - To be Paid
+        1L2I7 -> 25/8/2023 - 2194.43  - To be Paid
+--------------------------------------------------
+2 - Asli  Bulut - type : kurumsal_kucuk - total debt : 21315
+    2L2 : kobi_destek - 90587.93 - 28/12/2022 - 17
+        2L2I1 -> 28/12/2022 - 5328.70  - Paid
+        2L2I2 -> 28/1/2023 - 5328.70  - Paid
+        2L2I3 -> 28/2/2023 - 5328.70  - Delayed Payment
+        2L2I4 -> 28/3/2023 - 5328.70  - Delayed Payment
+        2L2I5 -> 28/4/2023 - 5328.70  - Delayed Payment
+        2L2I6 -> 28/5/2023 - 5328.70  - Delayed Payment
+        2L2I7 -> 28/6/2023 - 5328.70  - To be Paid
+        2L2I8 -> 28/7/2023 - 5328.70  - To be Paid
+        2L2I9 -> 28/8/2023 - 5328.70  - To be Paid
+        2L2I10 -> 28/9/2023 - 5328.70  - To be Paid
+        2L2I11 -> 28/10/2023 - 5328.70  - To be Paid
+        2L2I12 -> 28/11/2023 - 5328.70  - To be Paid
+        2L2I13 -> 28/12/2023 - 5328.70  - To be Paid
+        2L2I14 -> 28/1/2024 - 5328.70  - To be Paid
+        2L2I15 -> 28/2/2024 - 5328.70  - To be Paid
+        2L2I16 -> 28/3/2024 - 5328.70  - To be Paid
+        2L2I17 -> 28/4/2024 - 5328.70  - To be Paid
+--------------------------------------------------
+3 - Mehmet  Candan - type : kurumsal_orta - total debt : 419733
+    3L1 : ticari_arac - 1678932.00 - 10/09/2022 - 16
+        3L1I1 -> 10/09/2022 - 104933.25  - Paid
+        3L1I2 -> 10/10/2022 - 104933.25  - Delayed Payment
+        3L1I3 -> 10/11/2022 - 104933.25  - Delayed Payment
+        3L1I4 -> 10/12/2022 - 104933.25  - Paid
+        3L1I5 -> 10/1/2023 - 104933.25  - Paid
+        3L1I6 -> 10/2/2023 - 104933.25  - Paid
+        3L1I7 -> 10/3/2023 - 104933.25  - Paid
+        3L1I8 -> 10/4/2023 - 104933.25  - Delayed Payment
+        3L1I9 -> 10/5/2023 - 104933.25  - Delayed Payment
+        3L1I10 -> 10/6/2023 - 104933.25  - To be Paid
+        3L1I11 -> 10/7/2023 - 104933.25  - To be Paid
+        3L1I12 -> 10/8/2023 - 104933.25  - To be Paid
+        3L1I13 -> 10/9/2023 - 104933.25  - To be Paid
+        3L1I14 -> 10/10/2023 - 104933.25  - To be Paid
+        3L1I15 -> 10/11/2023 - 104933.25  - To be Paid
+        3L1I16 -> 10/12/2023 - 104933.25  - To be Paid
+--------------------------------------------------
+4 - Yasemin  Adiguzel - type : bireysel - total debt :  0
+        no loan
+--------------------------------------------------
+5 - Veli  Demir - type : kurumsal_buyuk - total debt : 706871
+    5L1 : yatirim - 152745.98 - 10/12/2022 - 5
+        5L1I1 -> 10/12/2022 - 30549.20  - Paid
+        5L1I2 -> 10/1/2023 - 30549.20  - Delayed Payment
+        5L1I3 -> 10/2/2023 - 30549.20  - Delayed Payment
+        5L1I4 -> 10/3/2023 - 30549.20  - Delayed Payment
+        5L1I5 -> 10/4/2023 - 30549.20  - Delayed Payment
+    5L2 : ticari_kasko - 17921.00 - 12/12/2022 - 5
+        5L2I1 -> 12/12/2022 - 3584.20  - Paid
+        5L2I2 -> 12/1/2023 - 3584.20  - Paid
+        5L2I3 -> 12/2/2023 - 3584.20  - Delayed Payment
+        5L2I4 -> 12/3/2023 - 3584.20  - Delayed Payment
+        5L2I5 -> 12/4/2023 - 3584.20  - Delayed Payment
+    5L4 : ticari_trafik_sigortasi - 4158.03 - 02/04/2023 - 4
+        5L4I1 -> 02/04/2023 - 1039.51  - Paid
+        5L4I2 -> 2/5/2023 - 1039.51  - Delayed Payment
+        5L4I3 -> 2/6/2023 - 1039.51  - To be Paid
+        5L4I4 -> 2/7/2023 - 1039.51  - To be Paid
+    5L5 : isyeri_alimi - 6874581.00 - 03/04/2023 - 12
+        5L5I1 -> 03/04/2023 - 572881.75  - Paid
+        5L5I2 -> 3/5/2023 - 572881.75  - Delayed Payment
+        5L5I3 -> 3/6/2023 - 572881.75  - To be Paid
+        5L5I4 -> 3/7/2023 - 572881.75  - To be Paid
+        5L5I5 -> 3/8/2023 - 572881.75  - To be Paid
+        5L5I6 -> 3/9/2023 - 572881.75  - To be Paid
+        5L5I7 -> 3/10/2023 - 572881.75  - To be Paid
+        5L5I8 -> 3/11/2023 - 572881.75  - To be Paid
+        5L5I9 -> 3/12/2023 - 572881.75  - To be Paid
+        5L5I10 -> 3/1/2024 - 572881.75  - To be Paid
+        5L5I11 -> 3/2/2024 - 572881.75  - To be Paid
+        5L5I12 -> 3/3/2024 - 572881.75  - To be Paid
+--------------------------------------------------
+6 - Suzan  Celik - type : kurumsal_sirketici - total debt : 3736
+    6L4 : yatirim - 63512.31 - 15/10/2022 - 17
+        6L4I1 -> 15/10/2022 - 3736.02  - Paid
+        6L4I2 -> 15/11/2022 - 3736.02  - Paid
+        6L4I3 -> 15/12/2022 - 3736.02  - Paid
+        6L4I4 -> 15/1/2023 - 3736.02  - Paid
+        6L4I5 -> 15/2/2023 - 3736.02  - Paid
+        6L4I6 -> 15/3/2023 - 3736.02  - Paid
+        6L4I7 -> 15/4/2023 - 3736.02  - Paid
+        6L4I8 -> 15/5/2023 - 3736.02  - Delayed Payment
+        6L4I9 -> 15/6/2023 - 3736.02  - To be Paid
+        6L4I10 -> 15/7/2023 - 3736.02  - To be Paid
+        6L4I11 -> 15/8/2023 - 3736.02  - To be Paid
+        6L4I12 -> 15/9/2023 - 3736.02  - To be Paid
+        6L4I13 -> 15/10/2023 - 3736.02  - To be Paid
+        6L4I14 -> 15/11/2023 - 3736.02  - To be Paid
+        6L4I15 -> 15/12/2023 - 3736.02  - To be Paid
+        6L4I16 -> 15/1/2024 - 3736.02  - To be Paid
+        6L4I17 -> 15/2/2024 - 3736.02  - To be Paid
+--------------------------------------------------
+7 - Yeliz  Kara - type : bireysel_vip - total debt :  0
+        no loan
+--------------------------------------------------
+8 - Tuna  Yildiz - type : kurumsal_kucuk - total debt : 92446
+    8L2 : baslangic_destek - 369784.00 - 23/11/2022 - 8
+        8L2I1 -> 23/11/2022 - 46223.00  - Paid
+        8L2I2 -> 23/12/2022 - 46223.00  - Paid
+        8L2I3 -> 23/1/2023 - 46223.00  - Paid
+        8L2I4 -> 23/2/2023 - 46223.00  - Paid
+        8L2I5 -> 23/3/2023 - 46223.00  - Paid
+        8L2I6 -> 23/4/2023 - 46223.00  - Delayed Payment
+        8L2I7 -> 23/5/2023 - 46223.00  - Delayed Payment
+        8L2I8 -> 23/6/2023 - 46223.00  - To be Paid
+--------------------------------------------------
+9 - Polat  Caliskan - type : kurumsal_sirketici - total debt :  0
+        no loan
+--------------------------------------------------
+10 - Berkecan  Yildirim - type : kurumsal_orta - total debt : 37706
+    10L2 : ticari_arac - 754129.31 - 12/12/2022 - 20
+        10L2I1 -> 12/12/2022 - 37706.46  - Paid
+        10L2I2 -> 12/1/2023 - 37706.46  - Paid
+        10L2I3 -> 12/2/2023 - 37706.46  - Paid
+        10L2I4 -> 12/3/2023 - 37706.46  - Paid
+        10L2I5 -> 12/4/2023 - 37706.46  - Paid
+        10L2I6 -> 12/5/2023 - 37706.46  - Delayed Payment
+        10L2I7 -> 12/6/2023 - 37706.46  - To be Paid
+        10L2I8 -> 12/7/2023 - 37706.46  - To be Paid
+        10L2I9 -> 12/8/2023 - 37706.46  - To be Paid
+        10L2I10 -> 12/9/2023 - 37706.46  - To be Paid
+        10L2I11 -> 12/10/2023 - 37706.46  - To be Paid
+        10L2I12 -> 12/11/2023 - 37706.46  - To be Paid
+        10L2I13 -> 12/12/2023 - 37706.46  - To be Paid
+        10L2I14 -> 12/1/2024 - 37706.46  - To be Paid
+        10L2I15 -> 12/2/2024 - 37706.46  - To be Paid
+        10L2I16 -> 12/3/2024 - 37706.46  - To be Paid
+        10L2I17 -> 12/4/2024 - 37706.46  - To be Paid
+        10L2I18 -> 12/5/2024 - 37706.46  - To be Paid
+        10L2I19 -> 12/6/2024 - 37706.46  - To be Paid
+        10L2I20 -> 12/7/2024 - 37706.46  - To be Paid
+--------------------------------------------------
+11 - Demet  Avci - type : kurumsal_orta - total debt : 8989
+    11L2 : ticari_kasko - 20974.31 - 20/12/2022 - 7
+        11L2I1 -> 20/12/2022 - 2996.33  - Paid
+        11L2I2 -> 20/1/2023 - 2996.33  - Paid
+        11L2I3 -> 20/2/2023 - 2996.33  - Paid
+        11L2I4 -> 20/3/2023 - 2996.33  - Delayed Payment
+        11L2I5 -> 20/4/2023 - 2996.33  - Delayed Payment
+        11L2I6 -> 20/5/2023 - 2996.33  - Delayed Payment
+        11L2I7 -> 20/6/2023 - 2996.33  - To be Paid
+--------------------------------------------------
+12 - Derya  Polat - type : bireysel - total debt : 872
+    12L4 : trafik_sigortasi - 1743.55 - 17/12/2022 - 2
+        12L4I1 -> 17/12/2022 - 871.78  - Paid
+        12L4I2 -> 17/1/2023 - 871.78  - Delayed Payment
+--------------------------------------------------
+13 - Canan  Karakaya - type : kurumsal_kucuk - total debt : 2293
+    13L2 : ticari_trafik_sigortasi - 9173.22 - 17/03/2023 - 4
+        13L2I1 -> 17/03/2023 - 2293.30  - Paid
+        13L2I2 -> 17/4/2023 - 2293.30  - Paid
+        13L2I3 -> 17/5/2023 - 2293.30  - Delayed Payment
+        13L2I4 -> 17/6/2023 - 2293.30  - To be Paid
+
+
+#############################################################
+1. read customers.
+2. print customers.
+3. read loans.
+4. print loans.
+5. create installments.
+6. print installments.
+7. read payments.
+8. find unpaid installments.
+9. delete completely paid installments.
+please select your option :
+0
+#############################################################
