@@ -1,1 +1,10 @@
 .vscode
+*.exe
+*.o
+!.gitignore
+!*.c
+
+
+# custom files
+6th-semester/CSE 2025 (Data Structures)/spring-semester/project-2/main
+6th-semester/CSE 2025 (Data Structures)/spring-semester/project-1/main
