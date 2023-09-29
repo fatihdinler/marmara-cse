@@ -1,23 +1,24 @@
-# Marmara University, Engineering Faculty, Computer Engineering Department. 
+## Overview
 
+Welcome to the `marmara-cse` repository. This repository is designed to show my skills and proficiency during my student life. It was created as part of my studies in computer engineering at Marmara University.
+
+## Lectures
+
+- Data Structures
+- Object Oriented Software Design
+- Digital Logic Design
+- Database Systems
+- Modeling & Discrete Simulation
+- Operating Systems
+
+## Getting Started
+
+If you're new to this repository, this section will guide you on how to get started.
+
+```bash
+# Clone the repository
+git clone https://github.com/fatihdinler/marmara-cse
+
+# Navigate to the project directory
+cd marmara-cse
 ```
-This repo contains my codes & homeworks & projects and notes during my engineering student life.
-```
-<h3>Lectures:</h3> 
-<ul>
-    <li>
-    Object Oriented Software Design
-    </li>
-    <li>
-    CSE 2025 (Data Structures)
-    </li>
-    <li>
-    CSE 3048 (Signals & Systems)
-    </li>
-    <li>
-    CSE 3064 (Formal Languages & Automata Theory)
-    </li>
-    <li>
-    IE 3235 (Operation Research)
-    </li>
-</ul>
