@@ -1,9 +1,17 @@
 .vscode
 *.exe
+*.execode
+*.dylib
+*.e
 *.o
 !.gitignore
 !*.c
 .DS_Store
+*.dSYM
+*a.out
+core
+*.o
+*output
 
 data-structures/.DS_Store
 database-systems/.DS_Store
