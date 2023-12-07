@@ -3,8 +3,10 @@
 *.o
 !.gitignore
 !*.c
+.DS_Store
 
-
-# custom files
-6th-semester/CSE 2025 (Data Structures)/spring-semester/project-2/main
-6th-semester/CSE 2025 (Data Structures)/spring-semester/project-1/main
+data-structures/.DS_Store
+database-systems/.DS_Store
+digital-logic-design/.DS_Store
+object-oriented-software-design/.DS_Store
+operating-system/.DS_Store
