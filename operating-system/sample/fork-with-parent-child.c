@@ -11,11 +11,10 @@ int main() {
   if (pid < 0) {
     fprintf(stderr, "Fork failed !");
     return 1;
-  } else if (pid == 0) {
-    // Çocuk süreç
+  } else if (pid == 0) { //  pid == 0 means that code is executed for child process
+    execlp("ls", "ls", "-l", NULL);
     printf("Child process is coming from the parent process\n");
-  } else {
-    // Ebeveyn süreç
+  } else {  // pid > 0 means that code is executed for parent process
     printf("Coming from parent process\n");
   }
 
