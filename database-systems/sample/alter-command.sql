@@ -8,6 +8,6 @@ add grades INT
 alter table student
 add entryDate DATETIME, location VARCHAR(40)
 
--- ! change the data type of a column
+-- ! change the data type of a column 
  alter table student 
  alter column grades SMALLINT
