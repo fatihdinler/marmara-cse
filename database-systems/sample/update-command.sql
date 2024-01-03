@@ -1,18 +1,11 @@
 use School
 
-insert into Student_T
-values (
-    'ahmet',
-    'Kaçar',
-    24
-)
-
 SELECT *
 FROM Student_t
 
 update Student_T
-set name='Ahmet'
-where name = 'ahmet'
+set age=18
+where age < 18
 
 SELECT *
 FROM Student_t
