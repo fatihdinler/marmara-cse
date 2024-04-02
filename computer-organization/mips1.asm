@@ -1,0 +1,158 @@
+.data
+input_array: .word 25, 2, 3, 9, 6, 4, 5
+array_size: .word 6
+output_msg: .asciiz "The new array is: "
+space: .asciiz " "
+newline: .asciiz "\n"
+
+.text
+.globl main
+
+main:
+    # Load address of input_array and array_size
+    la $a0, input_array
+    lw $t0, array_size
+
+    # Print original array
+    li $v0, 4               # syscall for print_str
+    la $a0, output_msg      # load address of the output message
+    syscall
+
+    # Print original array
+    li $v0, 1               # syscall for print_int
+    la $t2, input_array
+print_loop:
+    lw $a0, 0($t2)          # load the current integer to be printed
+    syscall
+    li $v0, 4               # syscall for print_str
+    la $a0, space           # load address of space
+    syscall
+    addi $t2, $t2, 4        # move to the next integer in the array
+    addi $t0, $t0, -1       # decrement array size counter
+    bnez $t0, print_loop    # loop until all integers printed
+    li $v0, 4               # syscall for print_str
+    la $a0, newline         # load address of newline
+    syscall
+
+    # Call the array switching procedure
+    la $a0, input_array
+    jal switch_array
+
+    # Print the new array
+    li $v0, 4               # syscall for print_str
+    la $a0, output_msg      # load address of the output message
+    syscall
+
+    # Print new array
+    li $v0, 1               # syscall for print_int
+    la $t2, input_array
+print_new_loop:
+    lw $a0, 0($t2)          # load the current integer to be printed
+    syscall
+    li $v0, 4               # syscall for print_str
+    la $a0, space           # load address of space
+    syscall
+    addi $t2, $t2, 4        # move to the next integer in the array
+    addi $t0, $t0, -1       # decrement array size counter
+    bnez $t0, print_new_loop    # loop until all integers printed
+    li $v0, 4               # syscall for print_str
+    la $a0, newline         # load address of newline
+    syscall
+
+    # Exit the program
+    li $v0, 10              # syscall for exit
+    syscall
+
+# Procedure to switch the elements of an integer array
+switch_array:
+    move $s0, $a0       # Copy the address of the array to $s0
+    li $t1, 1           # Initialize $t1 to 1 for the first index
+check_loop:
+    lw $t2, 0($s0)      # Load current integer
+    lw $t3, 4($s0)      # Load next integer
+
+    # Check if two integers are coprime
+    move $a0, $t2       # First integer
+    move $a1, $t3       # Second integer
+    jal is_coprime
+
+    beq $v0, $zero, remove_integers # If not coprime, remove integers and include least common factor
+    addi $t1, $t1, 1   # Move to the next pair of integers
+    addi $s0, $s0, 4   # Move to the next pair of integers
+    bne $t1, $t0, check_loop   # Loop until all pairs examined
+    jr $ra             # Return to the caller
+
+# Procedure to check if two integers are coprime
+# Arguments: $a0 = first integer, $a1 = second integer
+# Returns: $v0 = 1 if coprime, $v0 = 0 if not coprime
+is_coprime:
+    move $t4, $a0      # Copy first integer to $t4
+    move $t5, $a1      # Copy second integer to $t5
+    is_coprime_loop:
+        beq $t5, $zero, end_is_coprime  # If second integer is zero, exit loop
+        move $t6, $t5      # Copy second integer to $t6
+        div $t4, $t5       # Divide first integer by second integer
+        mfhi $t7           # Remainder stored in $t7
+        move $t4, $t6      # Restore original second integer
+        move $t5, $t7      # Set second integer to remainder
+        bne $t7, $zero, is_coprime_loop  # Loop until remainder is zero
+    li $v0, 1             # If remainder is zero, set return value to 1 (coprime)
+    jr $ra               # Return to the caller
+    end_is_coprime:
+        li $v0, 0         # If remainder is not zero, set return value to 0 (not coprime)
+        jr $ra           # Return to the caller
+
+# Procedure to remove two integers from array and include their least common factor
+# Arguments: $a0 = address of the array
+remove_integers:
+    move $t6, $s0      # Copy the address of the array to $t6
+    addi $t6, $t6, -8  # Move back to the start of the current pair of integers
+    lw $t2, 0($t6)     # Load the first integer
+    lw $t3, 4($t6)     # Load the second integer
+
+    # Calculate the least common factor (LCM)
+    move $a0, $t2      # First integer
+    move $a1, $t3      # Second integer
+    jal calculate_lcm
+
+    # Store the LCM at the current position in the array
+    sw $v0, 0($t6)
+
+    # Shift the remaining elements in the array
+    move $t5, $t6      # Copy the address of the current pair to $t5
+    addi $t5, $t5, 8   # Move to the next pair of integers
+shift_loop:
+    lw $t4, 0($t5)     # Load the integer to be shifted
+    sw $t4, -4($t5)    # Shift the integer to the left
+    addi $t5, $t5, 4   # Move to the next integer in the array
+    bne $t5, $s0, shift_loop   # Loop until all integers shifted
+
+    # Adjust the array size
+    lw $t0, array_size
+    addi $t0, $t0, -1
+    sw $t0, array_size
+
+    jr $ra            # Return to the caller
+
+# Procedure to calculate the least common factor (LCM) of two integers
+# Arguments: $a0 = first integer, $a1 = second integer
+# Returns: $v0 = least common factor (LCM)
+calculate_lcm:
+    move $t8, $a0    # Copy first integer to $t8
+    move $t9, $a1    # Copy second integer to $t9
+    lcm_loop:
+        beq $t9, $zero, end_lcm  # If second integer is zero, exit loop
+        move $t7, $t8    # Copy first integer to $t7
+        div $t8, $t9     # Divide first integer by second integer
+        mfhi $t8         # Remainder stored in $t8
+        move $t7, $t9    # Copy second integer to $t7
+        move $t9, $t8    # Set second integer to remainder
+        move $t8, $t7    # Restore original second integer
+        bne $t8, $zero, lcm_loop  # Loop until remainder is zero
+    move $v0, $a0        # Set LCM to the first integer
+    div $v0, $a1         # Divide LCM by the second integer
+    mflo $v0             # Quotient stored in $v0
+    jr $ra              # Return to the caller
+    end_lcm:
+        move $v0, $a0    # Set LCM to the first integer
+        jr $ra           # Return to the caller
