@@ -56,7 +56,7 @@ public class Main {
 					System.out.printf("%sSize%d: Median = %.2f, Time Elapsed = %d ms (%d ns)%n",
 									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
 				} catch (IOException e) {
-					System.out.println("An error occurred while reading from the file: " + e.getMessage());
+					System.out.println("An error occurred while reading from the file for insertion algorithm: " + e.getMessage());
 				}
 			}
 		}
@@ -72,13 +72,107 @@ public class Main {
 					System.out.printf("%sSize%d: Median = %.2f, Time Elapsed = %d ms (%d ns)%n",
 									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
 				} catch (IOException e) {
-					System.out.println("An error occurred while reading from the file: " + e.getMessage());
+					System.out.println("An error occurred while reading from the file for merge sort algorithm: " + e.getMessage());
 				}
 			}
 		}
 		
 		Main.seperator();
+		System.out.println("Based on Quick-Sort Algorithm");
+		for (int size : sizes) {
+			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
+				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
+				try {
+					int[] array = FileHandler.readFile(filePath);
+					QuickSort.Result result = QuickSort.sortAndFindMedian(array);
+					System.out.printf("%sSize%d: Median = %.2f, Time Elapsed = %d ms (%d ns)%n",
+									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
+				} catch (IOException e) {
+					System.out.println("An error occurred while reading from the file for quick sort algorithm: " + e.getMessage());
+				}
+			}
+		}
 		
+		Main.seperator();
+		System.out.println("Based on Max Heap with Removals Algorithm");
+		for (int size : sizes) {
+			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
+				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
+				try {
+					int[] array = FileHandler.readFile(filePath);
+					MaxHeapWithRemovals.Result result = MaxHeapWithRemovals.findMaxAfterRemovals(array);
+					System.out.printf("%sSize%d: Max Element after Removals = %d, Time Elapsed = %d ms (%d ns)%n",
+									orderType, size, result.maxElement, result.timeElapsedMillis, result.timeElapsedNanoseconds);
+				} catch (IOException e) {
+					System.out.println("An error occurred while reading from the file for max heap with removals algorithm: " + e.getMessage());
+				}
+			}
+		}
+		
+		Main.seperator();
+		System.out.println("Based on Quick Select Algorithm");
+		for (int size : sizes) {
+			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
+				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
+				try {
+					int[] array = FileHandler.readFile(filePath);
+					QuickSelect.Result result = QuickSelect.findMedian(array);
+					System.out.printf("%sSize%d: Median = %d, Time Elapsed = %d ms (%d ns)%n",
+									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
+				} catch (IOException e) {
+					System.out.println("An error occurred while reading from the file for quick select algorithm: " + e.getMessage());
+				}
+			}
+		}
+		
+		Main.seperator();
+		System.out.println("Based on Quick Select Algorithm with Median of Three Approach");
+		for (int size : sizes) {
+			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
+				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
+				try {
+					int[] array = FileHandler.readFile(filePath);
+					QuickSelectWithMedianOfThreeApproach.Result result = QuickSelectWithMedianOfThreeApproach.findMedian(array);
+					System.out.printf("%sSize%d: Median = %d, Time Elapsed = %d ms (%d ns)%n",
+									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
+				} catch (IOException e) {
+					System.out.println("An error occurred while reading from the file for quick select with median of three approach algorithm: " + e.getMessage());
+				}
+			}
+		}
+		
+		// Quick Select with Median of Medians
+		Main.seperator();
+		System.out.println("Based on Quick Select Algorithm with Median of Medians Approach");
+		for (int size : sizes) {
+			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
+				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
+				try {
+					int[] array = FileHandler.readFile(filePath);
+					QuickSelectWithMedianOfMediansApproach.Result result = QuickSelectWithMedianOfMediansApproach.findMedian(array);
+					System.out.printf("%sSize%d: Median = %d, Time Elapsed = %d ms (%d ns)%n",
+									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
+				} catch (IOException e) {
+					System.out.println("An error occurred while reading from the file for quick select with median of medians approach algorithm: " + e.getMessage());
+				}
+			}
+		}
+		
+//		Main.seperator();
+//		System.out.println("Based on Quick Select Algorithm with Median of Medians Approach");
+//		for (int size : sizes) {
+//			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
+//				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
+//				try {
+//					int[] array = FileHandler.readFile(filePath);
+//					QuickSelectWithMedianOfMediansApproach.Result result = QuickSelectWithMedianOfMediansApproach.findMedian(array);
+//					System.out.printf("%sSize%d: Median = %d, Time Elapsed = %d ms (%d ns)%n",
+//									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
+//				} catch (IOException e) {
+//					System.out.println("An error occurred while reading from the file for quick select with median of medians approach algorithm: " + e.getMessage());
+//				}
+//			}
+//		}
 	}
 	
 	public static void seperator() {
