@@ -1,3 +1,10 @@
+// Code section of the Project. Please execute the main method,
+// it'll automatically generate the sample-inputs directory in the
+// root of the project.
+// Name: Fatih Erkam Dinler School ID: 150119567
+// Name: Ayşe Sena Aydemir School ID: 150119735
+// Name: Emre Cihan Varlı School ID: 150119711
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
@@ -140,39 +147,6 @@ public class Main {
 				}
 			}
 		}
-		
-		// Quick Select with Median of Medians
-		Main.seperator();
-		System.out.println("Based on Quick Select Algorithm with Median of Medians Approach");
-		for (int size : sizes) {
-			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
-				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
-				try {
-					int[] array = FileHandler.readFile(filePath);
-					QuickSelectWithMedianOfMediansApproach.Result result = QuickSelectWithMedianOfMediansApproach.findMedian(array);
-					System.out.printf("%sSize%d: Median = %d, Time Elapsed = %d ms (%d ns)%n",
-									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
-				} catch (IOException e) {
-					System.out.println("An error occurred while reading from the file for quick select with median of medians approach algorithm: " + e.getMessage());
-				}
-			}
-		}
-		
-//		Main.seperator();
-//		System.out.println("Based on Quick Select Algorithm with Median of Medians Approach");
-//		for (int size : sizes) {
-//			for (String orderType : new String[]{"randomOrder", "sortedOrder", "reverseOrder"}) {
-//				String filePath = directoryName + File.separator + orderType + "Size" + size + ".txt";
-//				try {
-//					int[] array = FileHandler.readFile(filePath);
-//					QuickSelectWithMedianOfMediansApproach.Result result = QuickSelectWithMedianOfMediansApproach.findMedian(array);
-//					System.out.printf("%sSize%d: Median = %d, Time Elapsed = %d ms (%d ns)%n",
-//									orderType, size, result.median, result.timeElapsedMillis, result.timeElapsedNanoseconds);
-//				} catch (IOException e) {
-//					System.out.println("An error occurred while reading from the file for quick select with median of medians approach algorithm: " + e.getMessage());
-//				}
-//			}
-//		}
 	}
 	
 	public static void seperator() {

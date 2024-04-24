@@ -1,14 +1,14 @@
 public class QuickSelect {
 	
 	public static Result findMedian(int[] array) {
-		long startTime = System.nanoTime(); // İşlem zamanının başlangıcı
+		long startTime = System.nanoTime();
 		int n = array.length;
-		int medianIndex = (int) Math.ceil(n / 2.0) - 1; // ⌈n/2⌉'nci en küçük elemanın indeksi
+		int medianIndex = (int) Math.ceil(n / 2.0) - 1;
 		int median = iterativeQuickSelect(array, 0, n - 1, medianIndex);
 		
-		long endTime = System.nanoTime(); // İşlem zamanının bitişi
+		long endTime = System.nanoTime();
 		long durationInNanoseconds = endTime - startTime;
-		long durationInMillis = durationInNanoseconds / 1_000_000; // Milisaniyeye çevirme
+		long durationInMillis = durationInNanoseconds / 1_000_000;
 		
 		return new Result(median, durationInMillis, durationInNanoseconds);
 	}

@@ -4,26 +4,23 @@ import java.util.PriorityQueue;
 public class MaxHeapWithRemovals {
 	
 	public static Result findMaxAfterRemovals(int[] array) {
-		long startTime = System.nanoTime(); // İşlem zamanının başlangıcı
+		long startTime = System.nanoTime();
 		
-		// Max-heap oluştur
 		PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
 		for (int num : array) {
 			maxHeap.add(num);
 		}
 		
-		// ⌊n/2⌋ kez maksimum elemanı kaldır
 		int removals = array.length / 2;
 		while (removals-- > 0) {
 			maxHeap.poll();
 		}
 		
-		// Heap'in kökündeki maksimum eleman
 		int maxElement = maxHeap.peek();
 		
-		long endTime = System.nanoTime(); // İşlem zamanının bitişi
+		long endTime = System.nanoTime();
 		long durationInNanoseconds = endTime - startTime;
-		long durationInMillis = durationInNanoseconds / 1_000_000; // Milisaniyeye çevirme
+		long durationInMillis = durationInNanoseconds / 1_000_000;
 		
 		return new Result(maxElement, durationInMillis, durationInNanoseconds);
 	}
