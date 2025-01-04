@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yurt Sistemi - Ana Sayfa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .table-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .table-list li {
+      margin-bottom: 15px;
+    }
+
+    .table-list a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .table-list a:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      color: #666;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Yurt Sistemi Tabloları</h1>
+  <div class="container">
+    <ul class="table-list">
+      <% Object.keys(routes).forEach(route=> { %>
+        <% if (route !=='/' ) { %>
+          <li>
+            <a href="<%= route %>">
+              <%= route.substring(1).toUpperCase() %> Tablosu
+            </a>
+          </li>
+          <% } %>
+            <% }) %>
+    </ul>
+  </div>
+
+  <footer>&copy; 2025 Yurt Sistemi</footer>
+</body>
+
+</html>

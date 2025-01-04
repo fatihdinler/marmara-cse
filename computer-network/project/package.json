@@ -1,0 +1,14 @@
+{
+  "name": "computer-network-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "initialize-server": "node server",
+    "initialize-proxy": "node proxy"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2"
+  }
+}
