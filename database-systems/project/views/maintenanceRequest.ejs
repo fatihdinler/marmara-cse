@@ -77,7 +77,7 @@
         const result = await response.json();
         if (result.success) {
           document.getElementById('status-message').innerText = 'Maintenance Request başarıyla oluşturuldu!';
-          setTimeout(() => location.reload(), 2000); // 2 saniye sonra sayfa yenilenir
+          setTimeout(() => location.reload(), 2000);
         } else {
           document.getElementById('status-message').innerText = 'Hata oluştu: ' + result.message;
         }
