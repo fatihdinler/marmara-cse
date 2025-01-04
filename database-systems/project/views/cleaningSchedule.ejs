@@ -3,104 +3,76 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cleaning Schedule Tablosu</title>
+  <title>Cleaning Schedule</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
-
-    h1 {
-      text-align: center;
-      color: #333;
+    .form-container {
+      display: none;
+      margin-top: 20px;
       padding: 20px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: white;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
       border-radius: 8px;
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 20px;
+    .show {
+      display: block;
     }
 
-    th, td {
-      padding: 12px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-
-    th {
-      background-color: #007bff;
-      color: white;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    tr:hover {
-      background-color: #f1f1f1;
-    }
-
-    .no-data {
-      text-align: center;
-      padding: 20px;
-      font-size: 18px;
-      color: #666;
-    }
-
-    .back-link {
-      display: inline-block;
+    button {
       padding: 10px 20px;
       background-color: #007bff;
       color: white;
-      text-decoration: none;
+      border: none;
       border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-      text-align: center;
+      cursor: pointer;
+      font-size: 16px;
     }
 
-    .back-link:hover {
+    button:hover {
       background-color: #0056b3;
+    }
+
+    .input-field {
+      margin-bottom: 15px;
+      width: 100%;
+      padding: 8px;
     }
   </style>
 </head>
 
 <body>
-  <h1>Cleaning Schedule Tablosu</h1>
-  <div class="container">
-    <% if (data.length > 0) { %>
-    <table>
-      <tr>
-        <% Object.keys(data[0]).forEach(column => { %>
-          <th><%= column %></th>
-        <% }) %>
-      </tr>
-      <% data.forEach(row => { %>
-        <tr>
-          <% Object.values(row).forEach(value => { %>
-            <td><%= value || '-' %></td> <!-- Boş değerler için "-" koyar -->
-          <% }) %>
-        </tr>
-      <% }) %>
-    </table>
-    <% } else { %>
-    <div class="no-data">
-      <p>Henüz Cleaning Schedule tablosunda veri bulunmamaktadır.</p>
-    </div>
-    <% } %>
-    <a href="/" class="back-link">Ana Sayfaya Dön</a>
+  <h1>Cleaning Schedule</h1>
+
+  <button id="create-btn">Create a New Cleaning Schedule</button>
+
+  <!-- Form Container -->
+  <div class="form-container" id="form-container">
+    <h2>Create New Cleaning Schedule</h2>
+    <form method="POST" action="/create-cleaning-schedule">
+      <label for="RoomNumber">Room Number:</label>
+      <input class="input-field" type="number" id="RoomNumber" name="RoomNumber" required>
+
+      <label for="TaskDescription">Task Description:</label>
+      <input class="input-field" type="text" id="TaskDescription" name="TaskDescription" required>
+
+      <label for="Frequency">Frequency:</label>
+      <select class="input-field" id="Frequency" name="Frequency" required>
+        <option value="Daily">Daily</option>
+        <option value="Weekly">Weekly</option>
+      </select>
+
+      <button type="submit">Save</button>
+    </form>
   </div>
+
+  <script>
+    document.getElementById('create-btn').addEventListener('click', function () {
+      const formContainer = document.getElementById('form-container');
+      formContainer.classList.toggle('show');
+    });
+  </script>
+
+  <a href="/">Ana Sayfaya Dön</a>
 </body>
 
 </html>
