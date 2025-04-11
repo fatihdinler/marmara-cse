@@ -3,7 +3,8 @@ const sql = require('mssql')
 const fs = require('fs').promises
 
 let pool
-const connectionString = 'Server=localhost,1433User Id=SAPassword=Fedfedfed159357456458*TrustServerCertificate=True'
+// const connectionString = 'Server=localhost,1433User Id=SAPassword=Fedfedfed159357456458*TrustServerCertificate=True'
+const connectionString = 'Server=localhost,1433;User Id=SA;Password=Fedfedfed159357456458*;TrustServerCertificate=True;Encrypt=true;Database=YURTSYS';
 // const connectionString = `Server=localhost,1433User Id=<YOUR_USERNAME><YOUR_PASSWORD>TrustServerCertificate=True'`
 
 async function connectDB() {
