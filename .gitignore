@@ -12,6 +12,7 @@
 core
 *.o
 *output
+.idea
 
 data-structures/.DS_Store
 database-systems/.DS_Store
