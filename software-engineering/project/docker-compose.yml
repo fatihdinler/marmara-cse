@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: demirtechDB
+
+  server:
+    build: ./server
+    env_file:
+      - ./server/.env
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    restart: always
+    depends_on:
+      - mongodb
+      
+  client-web:
+    build: ./client-web
+    ports:
+      - "3439:3439"
+    volumes:
+      - ./client-web:/app
+      - /app/node_modules
+    restart: always
+
+volumes:
+  mongo-data:
